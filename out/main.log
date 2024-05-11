@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.5.12)  12 MAY 2024 01:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.5.12)  12 MAY 2024 01:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1309,20 +1309,20 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 32.
 \c@subsubsubsection=\count356
 
 (C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\main.aux
-(C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\parts\first-page.aux)
-(C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\parts\intro.aux)
-(C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\parts\phuong-phap-tric
-h-xuat-quan-he.aux)
-(C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\parts\phuong-phap-hoc-
-sau-(deep-learning).aux)
-(C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\parts\cac-mrc-phu-hop-
-voi-tieng-viet.aux)
-(C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\parts\dinh-nghia-cac-l
-oai-quan-he-uoc-rut-trich-linh-vuc-giao-duc.aux)
-(C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\parts\ket-qua-thu-nghi
-em.aux)
-(C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\parts\danh-sach-cong-v
-iec-con-lai.aux))
+(C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\parts\0.first-page.aux
+) (C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\parts\0.intro.aux)
+(C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\parts\1.phuong-phap-tr
+ich-xuat-quan-he.aux)
+(C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\parts\2.phuong-phap-ho
+c-sau-(deep-learning).aux)
+(C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\parts\3.cac-mrc-phu-ho
+p-voi-tieng-viet.aux)
+(C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\parts\4.dinh-nghia-cac
+-loai-quan-he-uoc-rut-trich-linh-vuc-giao-duc.aux)
+(C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\parts\6.ket-qua-thu-ng
+hiem.aux)
+(C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\parts\5.danh-sach-cong
+-viec-con-lai.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
@@ -1345,7 +1345,8 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
 LaTeX Font Info:    ... okay on input line 81.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 81.
 LaTeX Font Info:    ... okay on input line 81.
- (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+
+(C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count357
 \scratchdimen=\dimen345
@@ -1411,10 +1412,10 @@ Package hyperref Info: Link coloring ON on input line 81.
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
-\openout2 = `./parts/first-page.aux'.
+\openout2 = `./parts/0.first-page.aux'.
 
 
-(parts/first-page.tex
+(parts/0.first-page.tex
 <image/local/hcmut.png, id=38, 272.01625pt x 277.035pt>
 File: image/local/hcmut.png Graphic file (type png)
 <use image/local/hcmut.png>
@@ -1467,9 +1468,9 @@ l.87     \newpage
 
 
 ]
-\openout2 = `./parts/intro.aux'.
+\openout2 = `./parts/0.intro.aux'.
 
- (parts/intro.tex)
+ (parts/0.intro.tex)
 File: image/local/hcmut.png Graphic file (type png)
 <use image/local/hcmut.png>
 Package pdftex.def Info: image/local/hcmut.png  used on input line 88.
@@ -1477,10 +1478,10 @@ Package pdftex.def Info: image/local/hcmut.png  used on input line 88.
  [2
 
 ]
-\openout2 = `./parts/phuong-phap-trich-xuat-quan-he.aux'.
+\openout2 = `./parts/1.phuong-phap-trich-xuat-quan-he.aux'.
 
 
-(parts/phuong-phap-trich-xuat-quan-he.tex)
+(parts/1.phuong-phap-trich-xuat-quan-he.tex)
 File: image/local/hcmut.png Graphic file (type png)
 <use image/local/hcmut.png>
 Package pdftex.def Info: image/local/hcmut.png  used on input line 91.
@@ -1490,10 +1491,10 @@ Package pdftex.def Info: image/local/hcmut.png  used on input line 91.
 
 
 ]
-\openout2 = `./parts/phuong-phap-hoc-sau-(deep-learning).aux'.
+\openout2 = `./parts/2.phuong-phap-hoc-sau-(deep-learning).aux'.
 
 
-(parts/phuong-phap-hoc-sau-(deep-learning).tex)
+(parts/2.phuong-phap-hoc-sau-(deep-learning).tex)
 File: image/local/hcmut.png Graphic file (type png)
 <use image/local/hcmut.png>
 Package pdftex.def Info: image/local/hcmut.png  used on input line 94.
@@ -1503,10 +1504,10 @@ Package pdftex.def Info: image/local/hcmut.png  used on input line 94.
 
 
 ]
-\openout2 = `./parts/cac-mrc-phu-hop-voi-tieng-viet.aux'.
+\openout2 = `./parts/3.cac-mrc-phu-hop-voi-tieng-viet.aux'.
 
 
-(parts/cac-mrc-phu-hop-voi-tieng-viet.tex)
+(parts/3.cac-mrc-phu-hop-voi-tieng-viet.tex)
 File: image/local/hcmut.png Graphic file (type png)
 <use image/local/hcmut.png>
 Package pdftex.def Info: image/local/hcmut.png  used on input line 97.
@@ -1516,11 +1517,11 @@ Package pdftex.def Info: image/local/hcmut.png  used on input line 97.
 
 
 ]
-\openout2 = `./parts/dinh-nghia-cac-loai-quan-he-uoc-rut-trich-linh-vuc-giao-du
-c.aux'.
+\openout2 = `./parts/4.dinh-nghia-cac-loai-quan-he-uoc-rut-trich-linh-vuc-giao-
+duc.aux'.
 
 
-(parts/dinh-nghia-cac-loai-quan-he-uoc-rut-trich-linh-vuc-giao-duc.tex)
+(parts/4.dinh-nghia-cac-loai-quan-he-uoc-rut-trich-linh-vuc-giao-duc.tex)
 File: image/local/hcmut.png Graphic file (type png)
 <use image/local/hcmut.png>
 Package pdftex.def Info: image/local/hcmut.png  used on input line 100.
@@ -1531,9 +1532,9 @@ Package pdftex.def Info: image/local/hcmut.png  used on input line 100.
 
 
 ]
-\openout2 = `./parts/ket-qua-thu-nghiem.aux'.
+\openout2 = `./parts/6.ket-qua-thu-nghiem.aux'.
 
- (parts/ket-qua-thu-nghiem.tex)
+ (parts/6.ket-qua-thu-nghiem.tex)
 File: image/local/hcmut.png Graphic file (type png)
 <use image/local/hcmut.png>
 Package pdftex.def Info: image/local/hcmut.png  used on input line 103.
@@ -1543,35 +1544,36 @@ Package pdftex.def Info: image/local/hcmut.png  used on input line 103.
 
 
 ]
-\openout2 = `./parts/danh-sach-cong-viec-con-lai.aux'.
+\openout2 = `./parts/5.danh-sach-cong-viec-con-lai.aux'.
 
- (parts/danh-sach-cong-viec-con-lai.tex)
+
+(parts/5.danh-sach-cong-viec-con-lai.tex)
 File: image/local/hcmut.png Graphic file (type png)
 <use image/local/hcmut.png>
 Package pdftex.def Info: image/local/hcmut.png  used on input line 106.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
-
-[8
-
+ [8
 
 
-] 
+
+]
+
 enddocument/afterlastpage: lastpage setting LastPage.
 (C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\main.aux
-(C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\parts\first-page.aux)
-(C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\parts\intro.aux)
-(C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\parts\phuong-phap-tric
-h-xuat-quan-he.aux)
-(C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\parts\phuong-phap-hoc-
-sau-(deep-learning).aux)
-(C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\parts\cac-mrc-phu-hop-
-voi-tieng-viet.aux)
-(C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\parts\dinh-nghia-cac-l
-oai-quan-he-uoc-rut-trich-linh-vuc-giao-duc.aux)
-(C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\parts\ket-qua-thu-nghi
-em.aux)
-(C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\parts\danh-sach-cong-v
-iec-con-lai.aux))
+(C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\parts\0.first-page.aux
+) (C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\parts\0.intro.aux)
+(C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\parts\1.phuong-phap-tr
+ich-xuat-quan-he.aux)
+(C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\parts\2.phuong-phap-ho
+c-sau-(deep-learning).aux)
+(C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\parts\3.cac-mrc-phu-ho
+p-voi-tieng-viet.aux)
+(C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\parts\4.dinh-nghia-cac
+-loai-quan-he-uoc-rut-trich-linh-vuc-giao-duc.aux)
+(C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\parts\6.ket-qua-thu-ng
+hiem.aux)
+(C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\parts\5.danh-sach-cong
+-viec-con-lai.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -1580,10 +1582,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 2F3A492923F806CD750883BF8C34DFD9;1838.
  ) 
 Here is how much of TeX's memory you used:
- 27019 strings out of 474486
- 524283 string characters out of 5753570
+ 27027 strings out of 474486
+ 524977 string characters out of 5753570
  1935542 words of memory out of 5000000
- 48644 multiletter control sequences out of 15000+600000
+ 48652 multiletter control sequences out of 15000+600000
  575768 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  104i,24n,115p,543b,489s stack positions out of 10000i,1000n,20000p,200000b,200000s
