@@ -8,6 +8,9 @@
 \contentsline {subsubsection}{\numberline {2.1.4}Phương pháp bán giám sát (Semi-supervised)}{5}{subsubsection.2.1.4}%
 \contentsline {subsubsection}{\numberline {2.1.5}Phương pháp giám sát từ xa (Distant supervision)}{7}{subsubsection.2.1.5}%
 \contentsline {subsection}{\numberline {2.2}Phương pháp học sâu (Deep learning)}{8}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}CNN based methods}{8}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}RNN and LSTM based methods}{8}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Encoder-decoder/transformer based methods}{8}{subsubsection.2.2.3}%
 \contentsline {section}{\numberline {3}Các MRC phù hợp với Tiếng Việt}{9}{section.3}%
 \contentsline {section}{\numberline {4}Định nghĩa các loại quan hệ được rút trích lĩnh vực giáo dục}{10}{section.4}%
 \contentsline {section}{\numberline {5}Kết quả thử nghiệm}{11}{section.5}%
