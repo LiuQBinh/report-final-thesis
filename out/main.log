@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.5.12)  12 MAY 2024 01:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.5.12)  12 MAY 2024 03:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1312,7 +1312,7 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 32.
 (C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\parts\0.first-page.aux
 ) (C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\parts\0.intro.aux)
 (C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\parts\1.phuong-phap-tr
-ich-xuat-quan-he.aux)
+ich-xuat-quan-he-truyen-thong.aux)
 (C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\parts\2.phuong-phap-ho
 c-sau-(deep-learning).aux)
 (C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\parts\3.cac-mrc-phu-ho
@@ -1416,7 +1416,7 @@ Package hyperref Info: Link coloring ON on input line 81.
 
 
 (parts/0.first-page.tex
-<image/local/hcmut.png, id=38, 272.01625pt x 277.035pt>
+<image/local/hcmut.png, id=58, 272.01625pt x 277.035pt>
 File: image/local/hcmut.png Graphic file (type png)
 <use image/local/hcmut.png>
 Package pdftex.def Info: image/local/hcmut.png  used on input line 10.
@@ -1478,28 +1478,326 @@ Package pdftex.def Info: image/local/hcmut.png  used on input line 88.
  [2
 
 ]
-\openout2 = `./parts/1.phuong-phap-trich-xuat-quan-he.aux'.
+\openout2 = `./parts/1.phuong-phap-trich-xuat-quan-he-truyen-thong.aux'.
 
 
-(parts/1.phuong-phap-trich-xuat-quan-he.tex)
+(parts/1.phuong-phap-trich-xuat-quan-he-truyen-thong.tex
+<image/parts/1.png, id=100, 533.995pt x 238.8925pt>
+File: image/parts/1.png Graphic file (type png)
+<use image/parts/1.png>
+Package pdftex.def Info: image/parts/1.png  used on input line 23.
+(pdftex.def)             Requested size: 376.42575pt x 168.4083pt.
+
+
+parts/1.phuong-phap-trich-xuat-quan-he-truyen-thong.tex:25: LaTeX Error: Enviro
+nment tablenotes undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25         \begin{tablenotes}
+                               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+parts/1.phuong-phap-trich-xuat-quan-he-truyen-thong.tex:26: You can't use `macr
+o parameter character #' in horizontal mode.
+l.26 ...com/science/article/pii/S2667305323000698#
+                                                  br0060}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+parts/1.phuong-phap-trich-xuat-quan-he-truyen-thong.tex:27: LaTeX Error: \begin
+{center} on input line 24 ended by \end{tablenotes}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27         \end{tablenotes}
+                             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+File: image/local/hcmut.png Graphic file (type png)
+<use image/local/hcmut.png>
+Package pdftex.def Info: image/local/hcmut.png  used on input line 54.
+(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
+[3
+
+
+
+ <./image/parts/1.png (PNG copy)>]
+<image/parts/2.png, id=117, 666.49pt x 280.04625pt>
+File: image/parts/2.png Graphic file (type png)
+<use image/parts/2.png>
+Package pdftex.def Info: image/parts/2.png  used on input line 70.
+(pdftex.def)             Requested size: 376.42575pt x 158.17085pt.
+
+
+parts/1.phuong-phap-trich-xuat-quan-he-truyen-thong.tex:72: LaTeX Error: Enviro
+nment tablenotes undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72         \begin{tablenotes}
+                               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+parts/1.phuong-phap-trich-xuat-quan-he-truyen-thong.tex:73: LaTeX Error: \begin
+{center} on input line 71 ended by \end{tablenotes}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.73         \end{tablenotes}
+                             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+parts/1.phuong-phap-trich-xuat-quan-he-truyen-thong.tex:76: Illegal parameter n
+umber in definition of \GetTitleStringResult.
+<to be read again> 
+                   b
+l.76 ...2667305323000698#br0500}{Hearst (1992)}).}
+                                                  \label{fig:image/parts/2}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+parts/1.phuong-phap-trich-xuat-quan-he-truyen-thong.tex:76: Illegal parameter n
+umber in definition of \GTS@GlobalString.
+<to be read again> 
+                   b
+l.76 ...2667305323000698#br0500}{Hearst (1992)}).}
+                                                  \label{fig:image/parts/2}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+parts/1.phuong-phap-trich-xuat-quan-he-truyen-thong.tex:76: Illegal parameter n
+umber in definition of \@tempa.
+<to be read again> 
+                   b
+l.76 ...2667305323000698#br0500}{Hearst (1992)}).}
+                                                  \label{fig:image/parts/2}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+parts/1.phuong-phap-trich-xuat-quan-he-truyen-thong.tex:76: Illegal parameter n
+umber in definition of \reserved@a.
+<to be read again> 
+                   b
+l.76 ...2667305323000698#br0500}{Hearst (1992)}).}
+                                                  \label{fig:image/parts/2}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+parts/1.phuong-phap-trich-xuat-quan-he-truyen-thong.tex:76: Illegal parameter n
+umber in definition of \caption@tempa.
+<to be read again> 
+                   b
+l.76 ...2667305323000698#br0500}{Hearst (1992)}).}
+                                                  \label{fig:image/parts/2}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+parts/1.phuong-phap-trich-xuat-quan-he-truyen-thong.tex:76: Illegal parameter n
+umber in definition of \Hy@tempa.
+<to be read again> 
+                   b
+l.76 ...2667305323000698#br0500}{Hearst (1992)}).}
+                                                  \label{fig:image/parts/2}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+parts/1.phuong-phap-trich-xuat-quan-he-truyen-thong.tex:76: Illegal parameter n
+umber in definition of \Hy@tempa.
+<to be read again> 
+                   b
+l.76 ...2667305323000698#br0500}{Hearst (1992)}).}
+                                                  \label{fig:image/parts/2}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+parts/1.phuong-phap-trich-xuat-quan-he-truyen-thong.tex:76: Illegal parameter n
+umber in definition of \Hy@tempa.
+<to be read again> 
+                   b
+l.76 ...2667305323000698#br0500}{Hearst (1992)}).}
+                                                  \label{fig:image/parts/2}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+parts/1.phuong-phap-trich-xuat-quan-he-truyen-thong.tex:76: Illegal parameter n
+umber in definition of \Hy@tempa.
+<to be read again> 
+                   b
+l.76 ...2667305323000698#br0500}{Hearst (1992)}).}
+                                                  \label{fig:image/parts/2}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+parts/1.phuong-phap-trich-xuat-quan-he-truyen-thong.tex:76: Illegal parameter n
+umber in definition of \Hy@tempa.
+<to be read again> 
+                   b
+l.76 ...2667305323000698#br0500}{Hearst (1992)}).}
+                                                  \label{fig:image/parts/2}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+parts/1.phuong-phap-trich-xuat-quan-he-truyen-thong.tex:76: Illegal parameter n
+umber in definition of \Hy@tempa.
+<to be read again> 
+                   b
+l.76 ...2667305323000698#br0500}{Hearst (1992)}).}
+                                                  \label{fig:image/parts/2}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+File: image/local/hcmut.png Graphic file (type png)
+<use image/local/hcmut.png>
+Package pdftex.def Info: image/local/hcmut.png  used on input line 86.
+(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
+[4 <./image/parts/2.png>]
+<image/parts/3.jpg, id=130, 565.11125pt x 44.165pt>
+File: image/parts/3.jpg Graphic file (type jpg)
+<use image/parts/3.jpg>
+Package pdftex.def Info: image/parts/3.jpg  used on input line 104.
+(pdftex.def)             Requested size: 376.42575pt x 29.4192pt.
+
+
+parts/1.phuong-phap-trich-xuat-quan-he-truyen-thong.tex:106: LaTeX Error: Envir
+onment tablenotes undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.106         \begin{tablenotes}
+                                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+parts/1.phuong-phap-trich-xuat-quan-he-truyen-thong.tex:107: LaTeX Error: \begi
+n{center} on input line 105 ended by \end{tablenotes}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.107         \end{tablenotes}
+                              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+File: image/local/hcmut.png Graphic file (type png)
+<use image/local/hcmut.png>
+Package pdftex.def Info: image/local/hcmut.png  used on input line 148.
+(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
+[5 <./image/parts/3.jpg>]
+<image/parts/4.jpg, id=148, 440.64626pt x 226.8475pt>
+File: image/parts/4.jpg Graphic file (type jpg)
+<use image/parts/4.jpg>
+Package pdftex.def Info: image/parts/4.jpg  used on input line 152.
+(pdftex.def)             Requested size: 334.60422pt x 172.26396pt.
+
+
+parts/1.phuong-phap-trich-xuat-quan-he-truyen-thong.tex:154: LaTeX Error: Envir
+onment tablenotes undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.154         \begin{tablenotes}
+                                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+parts/1.phuong-phap-trich-xuat-quan-he-truyen-thong.tex:155: LaTeX Error: \begi
+n{center} on input line 153 ended by \end{tablenotes}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.155         \end{tablenotes}
+                              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+File: image/local/hcmut.png Graphic file (type png)
+<use image/local/hcmut.png>
+Package pdftex.def Info: image/local/hcmut.png  used on input line 161.
+(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
+[6 <./image/parts/4.jpg>]
+parts/1.phuong-phap-trich-xuat-quan-he-truyen-thong.tex:176: Missing $ inserted
+.
+<inserted text> 
+                $
+l.176 ...s, entity2: Microsoft, relation: founder_
+                                                  of)\('\) trong Freebase,
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+parts/1.phuong-phap-trich-xuat-quan-he-truyen-thong.tex:176: LaTeX Error: Bad m
+ath environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 ...tity2: Microsoft, relation: founder_of)\(
+                                                  '\) trong Freebase,
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
 File: image/local/hcmut.png Graphic file (type png)
 <use image/local/hcmut.png>
 Package pdftex.def Info: image/local/hcmut.png  used on input line 91.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [3
-
-
-
-]
+ [7]
 \openout2 = `./parts/2.phuong-phap-hoc-sau-(deep-learning).aux'.
 
-
-(parts/2.phuong-phap-hoc-sau-(deep-learning).tex)
+ (parts/2.phuong-phap-hoc-sau-(deep-learning).tex)
 File: image/local/hcmut.png Graphic file (type png)
 <use image/local/hcmut.png>
-Package pdftex.def Info: image/local/hcmut.png  used on input line 94.
+Package pdftex.def Info: image/local/hcmut.png  used on input line 92.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [4
+ [8
 
 
 
@@ -1510,9 +1808,9 @@ Package pdftex.def Info: image/local/hcmut.png  used on input line 94.
 (parts/3.cac-mrc-phu-hop-voi-tieng-viet.tex)
 File: image/local/hcmut.png Graphic file (type png)
 <use image/local/hcmut.png>
-Package pdftex.def Info: image/local/hcmut.png  used on input line 97.
+Package pdftex.def Info: image/local/hcmut.png  used on input line 96.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [5
+ [9
 
 
 
@@ -1524,10 +1822,10 @@ duc.aux'.
 (parts/4.dinh-nghia-cac-loai-quan-he-uoc-rut-trich-linh-vuc-giao-duc.tex)
 File: image/local/hcmut.png Graphic file (type png)
 <use image/local/hcmut.png>
-Package pdftex.def Info: image/local/hcmut.png  used on input line 100.
+Package pdftex.def Info: image/local/hcmut.png  used on input line 99.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
 
-[6
+[10
 
 
 
@@ -1537,9 +1835,9 @@ Package pdftex.def Info: image/local/hcmut.png  used on input line 100.
  (parts/6.ket-qua-thu-nghiem.tex)
 File: image/local/hcmut.png Graphic file (type png)
 <use image/local/hcmut.png>
-Package pdftex.def Info: image/local/hcmut.png  used on input line 103.
+Package pdftex.def Info: image/local/hcmut.png  used on input line 102.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [7
+ [11
 
 
 
@@ -1550,9 +1848,9 @@ Package pdftex.def Info: image/local/hcmut.png  used on input line 103.
 (parts/5.danh-sach-cong-viec-con-lai.tex)
 File: image/local/hcmut.png Graphic file (type png)
 <use image/local/hcmut.png>
-Package pdftex.def Info: image/local/hcmut.png  used on input line 106.
+Package pdftex.def Info: image/local/hcmut.png  used on input line 105.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [8
+ [12
 
 
 
@@ -1563,7 +1861,7 @@ enddocument/afterlastpage: lastpage setting LastPage.
 (C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\parts\0.first-page.aux
 ) (C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\parts\0.intro.aux)
 (C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\parts\1.phuong-phap-tr
-ich-xuat-quan-he.aux)
+ich-xuat-quan-he-truyen-thong.aux)
 (C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\parts\2.phuong-phap-ho
 c-sau-(deep-learning).aux)
 (C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\parts\3.cac-mrc-phu-ho
@@ -1579,27 +1877,31 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2F3A492923F806CD750883BF8C34DFD9;1838.
+(rerunfilecheck)             Checksum: F7F788288A55E8C3C5C173996FB41D4E;3403.
  ) 
 Here is how much of TeX's memory you used:
- 27027 strings out of 474486
- 524977 string characters out of 5753570
- 1935542 words of memory out of 5000000
- 48652 multiletter control sequences out of 15000+600000
- 575768 words of font info for 81 fonts, out of 8000000 for 9000
+ 27111 strings out of 474486
+ 527017 string characters out of 5753570
+ 1938542 words of memory out of 5000000
+ 48720 multiletter control sequences out of 15000+600000
+ 578545 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 104i,24n,115p,543b,489s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 104i,24n,115p,737b,489s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\luuqu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
-1000.pk><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vnbx10.pfb><C:/Program F
-iles/MiKTeX/fonts/type1/vntex/vnr/vnbx12.pfb><C:/Program Files/MiKTeX/fonts/typ
-e1/vntex/vnr/vnr10.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vnr12.pfb
-><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vnr8.pfb><C:/Program Files/MiKT
-eX/fonts/type1/vntex/vnr/vntt10.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/
-vnr/vntt8.pfb>
+1000.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/
+Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/
+vnr/vnbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vnbx12.pfb><C:/Pr
+ogram Files/MiKTeX/fonts/type1/vntex/vnr/vnbx9.pfb><C:/Program Files/MiKTeX/fon
+ts/type1/vntex/vnr/vnr10.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vnr
+12.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vnr8.pfb><C:/Program File
+s/MiKTeX/fonts/type1/vntex/vnr/vnti9.pfb><C:/Program Files/MiKTeX/fonts/type1/v
+ntex/vnr/vntt10.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vntt8.pfb>
 Output written on C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\main.
-pdf (9 pages, 155996 bytes).
+pdf (13 pages, 346881 bytes).
 PDF statistics:
- 146 PDF objects out of 1000 (max. 8388607)
- 20 named destinations out of 1000 (max. 500000)
- 82 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 267 PDF objects out of 1000 (max. 8388607)
+ 33 named destinations out of 1000 (max. 500000)
+ 142 words of extra memory for PDF output out of 10000 (max. 10000000)
 
