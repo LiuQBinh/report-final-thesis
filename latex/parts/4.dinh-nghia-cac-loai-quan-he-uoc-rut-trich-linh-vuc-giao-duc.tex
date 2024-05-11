@@ -1,1 +1,78 @@
 \section{Định nghĩa các loại quan hệ được rút trích lĩnh vực giáo dục}\label{sec:inh-nghia-cac-loai-quan-he-uoc-rut-trich-linh-vuc-giao-duc}
+\subsection{Entities}\label{subsec:entities}
+\subsubsection{Intents}
+\subsubsection{Terms}
+\subsubsection{Papers}
+\subsubsection{Subject}
+\subsubsection{Student}
+\subsubsection{Lecturers}
+\subsubsection{Academic\_service\_Office}
+\subsubsection{English\_Certificate}
+\subsubsection{URL}
+
+\subsection{Relations}\label{subsec:relations}
+            \subsubsection{hỏi ý định rút môn}
+            - Intents\_cancel\_target\_subject (Intents target to Subject):
+                - Ex: Intents(name=\('\)Rut Mon Hoc\('\)) <----Intents\_cancel\_target\_subject----> Subject(name=\('\)Toan roi rac\('\))
+
+            \subsubsection{hỏi chung về ý định}
+            - Student\_ask\_intent (Student ask about an intent):
+                - Student(id=\('\)2033009\('\)) <----Student\_ask\_intent----> Intents(name=\('\)Rut Mon Hoc\('\))
+
+            \subsubsection{hỏi thời gian bat81 đầu đăng ký môn}
+            - Student\_ask\_time\_register\_course (Student ask about an intent):
+                - Student(id=\('\)2033009\('\)) <----Student\_ask\_intent ----> Intents(name=\('\)Đăng ký môn\('\))
+                - Intents(name=\('\)Đăng ký môn\('\)) <----time\_register\_course ----> Terms(name=\('\)HK201\('\))
+
+            \subsubsection{hỏi lịch học}
+            - Intents\_schedule\_course\_with\_term (Student ask about an intent):
+                - Student(id=\('\)2033009\('\)) <----Student\_ask\_intent----> Intents(name=\('\)Hỏi lịch học\('\))
+                - Intents(name=\('\)Hỏi lịch học\('\)) <----Intents\_schedule\_course\_with\_term ----> Terms(name=\('\)HK201\('\))
+
+            \subsubsection{hỏi môn tương đương}
+            - Subjects\_same\_Subject:
+                - Subject(name=\('\)Toán rời rạc\('\))  <----Subjects\_same\_Subject ----> Subject(name=\('\)Cấu trúc rời rạc cho KHMT\('\))
+
+            \subsubsection{đăng kí gia hạn}
+            - Subjects\_same\_Subject:
+                - Student(id=\('\)2033009\('\)) <----Student\_ask\_intent----> Intents(name=\('\)đăng kí gia hạn\('\))
+                - Intents(name=\('\)đăng kí gia hạn\('\)) <----Student\_ask\_intent---->
+
+            \subsubsection{hỏi học phí}
+            - Student\_paid\_tuition: # học sinh đã thanh toán học phí học kì 1
+                - Student(id=\('\)2033009\('\))
+                  <----Student\_paid\_tuition---->
+                  Intents(
+                  name=\('\)Thanh\_toán học\_phí\('\),
+                  term=Terms(name=\('\)HK201\('\)),
+                  )
+
+            \subsubsection{Thay đổi đăng ký môn học}
+            - Student\_change\_courses:
+                - Student(id=\('\)2033009\('\))
+                  <----Student\_change\_courses---->
+                  Intents(
+                  name=\('\)Thay đổi đăng ký môn học\('\),
+                  term=Terms(name=\('\)HK201\('\)),
+                  )
+            \subsubsection{hỏi về chuẩn ngoại ngữ}
+            - Intents\_qualities\_for\_student:
+                - Example 1:
+                  - Student(id=\('\)2033009\('\)) <----Student\_ask\_intent----> Intents(name=\('\)Chuẩn sinh\_viên\('\))
+                  - Intents(name=\('\)Chuẩn sinh\_viên\('\)) <----Intents\_qualities\_for\_student----> English\_Certificate()
+                - Example 2:
+                  - Student(id=\('\)2033009\('\)) <----Student\_ask\_intent----> Intents(name=\('\)Hỏi về chuẩn ngoại ngữ\('\))
+                  - Intents(name=\('\)Hỏi về chuẩn ngoại ngữ\('\)) <----Intents\_qualities\_for\_student----> English\_Certificate()
+            \subsubsection{URLs}
+            \subsubsubsection{hỏi đăng kí in bảng điểm}
+            - Intents\_print\_scores:
+                  - Student(id=\('\)2033009\('\)) <----Student\_ask\_intent----> Intents(name=\('\)Đăng kí in bảng điểm\('\))
+                  - Intents(name=\('\)Đăng kí in bảng điểm\('\)) <----Intents\_print\_scores----> URL('url about print student score')
+            \subsubsubsection{hỏi điều kiện nhận luận văn}
+            - Intents\_ask\_condition\_register\_thesis:
+                  - Student(id=\('\)2033009\('\)) <----Student\_ask\_intent----> Intents(name=\('\)Hỏi điều kiện nhận luận văn\('\))
+                  - Intents(name=\('\)Hỏi điều kiện nhận luận văn\('\)) <----Intents\_ask\_condition\_register\_thesis----> URL('url about Intents\_ask\_condition\_register\_thesis')
+            \subsubsubsection{hỏi điều kiện tốt nghiệp}
+            - Intents\_ask\_condition\_graduated:
+                  - Student(id=\('\)2033009\('\)) <----Student\_ask\_intent----> Intents(name=\('\)Hỏi điều kiện tốt nghiệp\('\))
+                  - Intents(name=\('\)Hỏi điều kiện tốt nghiệp\('\)) <----Intents\_ask\_condition\_graduated----> URL('url about Intents\_ask\_condition\_graduated')

@@ -25,9 +25,9 @@
 
 - MRC candidate for Vietnamese:
     - Fine-turned model
-      - XML-net  fine-turn for QA task -> not correct.
-      - Pho-bert fine-turn for QA task -> not correct.
-      - Vi-deberta fine-turn for QA -> my lab, may be fit with data set / domain.
+      - XML-net  fine-turn for QA task.
+      - Pho-bert fine-turn for QA task.
+      - Vi-deberta fine-turn for QA -> may be fit with data set / domain.
     - 3rd API
       - ChatGPT
       - Gemini from Google

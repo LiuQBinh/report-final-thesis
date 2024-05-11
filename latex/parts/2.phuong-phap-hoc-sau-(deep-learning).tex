@@ -47,5 +47,51 @@ phân tích định hướng (sentiment analysis) (
 ) v.v.
 
 \subsubsection{CNN based methods}
+
+\begin{singlespace}
+Các công trình ban đầu về trích xuất quan hệ sử dụng học sâu dựa trên mô hình học có giám sát
+với tập dữ liệu huấn luyện được dán nhãn thủ công. Mô hình coi nhiệm vụ RE là vấn đề phân loại
+đa lớp, trong đó mô hình gán một lớp quan hệ cho một câu chứa cặp thực thể được đề cập.
+\href{https://scholar.google.com/scholar_lookup?title=Convolution%20neural%20network%20for%20relation%20extraction&publication_year=2013&author=C.%20Liu&author=W.%20Sun&author=W.%20Chao&author=W.%20Che}{Liu et al. (2013)} \textbf{đề xuất một mô hình CNN đơn giản để trích xuất quan hệ}.
+Liu et al. (2013) là một trong những nhóm nghiên cứu đầu tiên sử dụng kiến trúc dựa trên Mạng nơ-ron tích chập (CNN) cho trích xuất quan hệ. Mô hình này xây dựng một kiến trúc mạng nơ-ron đầu cuối (end-to-end) với ba khối chính: lớp đầu vào, lớp tích chập và lớp mạng nơ-ron cổ điển.
+\begin{itemize}
+\item Lớp đầu vào: Sử dụng bảng tra cứu (lookup table) để chuyển đổi các câu đầu vào thành vector từ (word vector) bằng cách tận dụng các đặc trưng từ vựng và từ điển đồng nghĩa.
+\item Lớp tích chập: Sử dụng một kernel tuần tự, ánh xạ các vector từ của lớp đầu vào vào một không gian vector mới.
+\item Lớp mạng nơ-ron: Kết quả đầu ra của lớp tích chập được đưa vào mạng nơ-ron với hàm softmax để tính toán xác suất phân loại.
+\end{itemize}
+Trên tập dữ liệu ACE, mô hình này đạt được điểm F1 là 83,8%, vượt qua mô hình tiên tiến nhất thời bấy giờ (phương pháp Typed Dependency Kernel của Reichartz et al. (2010)).
+\end{singlespace}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 \subsubsection{RNN and LSTM based methods}
 \subsubsection{Encoder-decoder/transformer based methods}

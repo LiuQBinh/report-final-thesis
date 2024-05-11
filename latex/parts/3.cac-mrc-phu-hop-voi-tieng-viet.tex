@@ -1,1 +1,19 @@
 \section{Các MRC phù hợp với Tiếng Việt}\label{sec:cac-mrc-phu-hop-voi-tieng-viet}
+\subsection{Mô hình tinh chỉnh (Fine-tuned model):}\label{subsec:mo-hinh-tinh-chinh-(fine-tuned-model):}
+\begin{itemize}
+    \item XML-net fine-tuned: Mô hình này được tinh chỉnh cho tác vụ hỏi đáp.
+    \item Pho-bert fine-tuned: Tương tự như XML-net, Pho-bert cũng là một mô hình được tinh chỉnh cho tác vụ hỏi đáp.
+    \item Vi-deberta fine-tuned (phòng thí nghiệm của chúng tôi), mô hình Vi-deberta được phát triển bởi
+        \href{https://arxiv.org/pdf/2301.10439}{Cong Dao Tran, Nhut Huy Pham, Anh Nguyen, Truong Son Hy & Tu Vu (2023)}
+        và được tinh chỉnh cho tác vụ hỏi đáp (QA task). Do được xây dựng dựa trên dữ liệu tiếng Việt, Vi-deberta có khả năng năng tương thích cao với tập dữ liệu/lĩnh vực của chúng ta (cần kiểm chứng thêm).
+\end{itemize}
+\subsection{API của bên thứ ba (3rd party API):}\label{subsec:api-cua-ben-thu-ba-(3rd-party-api):}
+\begin{itemize}
+    \item
+        ChatGPT: ChatGPT là một API trả lời theo dạng hội thoại, có khả năng tạo văn bản theo yêu cầu và trả lời các câu hỏi một cách tự nhiên.
+        GPT có nhiều phiên bản khác nhau với kích thước và tập dữ liệu đào tạo khác nhau. GPT-3, phiên bản phổ biến nhất, được đào tạo trên một tập dữ liệu khổng lồ gồm văn bản và mã, bao gồm sách, bài báo,
+    \item
+        Gemini from Google: Gemini là một mô hình ngôn ngữ lớn do Google phát triển, có khả năng thực hiện nhiều tác vụ xử lý ngôn ngữ tự nhiên, bao gồm cả trả lời câu hỏi.
+        Gemini cũng có nhiều phiên bản, bao gồm Gemini Pro, Gemini Ultra và Gemini Nano. Gemini Ultra được đào tạo trên một tập dữ liệu khổng lồ gồm văn bản và mã, tương tự như GPT-3, trong khi Gemini Nano được đào tạo trên một tập dữ liệu nhỏ hơn để chạy trên thiết bị di động.
+\end{itemize}
+

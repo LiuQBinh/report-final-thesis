@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.5.12)  12 MAY 2024 04:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.5.12)  12 MAY 2024 04:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1305,8 +1305,32 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 (C:\Program Files\MiKTeX\tex/latex/import\import.sty
 Package: import 2020/04/01  v 6.2
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 32.
-\c@subsubsubsection=\count356
+(C:\Program Files\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count356
+\lst@gtempboxa=\box138
+\lst@token=\toks52
+\lst@length=\count357
+\lst@currlwidth=\dimen345
+\lst@column=\count358
+\lst@pos=\count359
+\lst@lostspace=\dimen346
+\lst@width=\dimen347
+\lst@newlines=\count360
+\lst@lineno=\count361
+\lst@maxwidth=\dimen348
+
+(C:\Program Files\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+\c@lstnumber=\count362
+\lst@skipnumbers=\count363
+\lst@framebox=\box139
+)
+(C:\Program Files\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2023/02/27 1.9 listings configuration
+))
+Package: listings 2023/02/27 1.9 (Carsten Heinz)
+Package hyperref Info: Option `colorlinks' set `true' on input line 33.
+\c@subsubsubsection=\count364
 
 (C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\main.aux
 (C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\parts\0.first-page.aux
@@ -1325,40 +1349,40 @@ hiem.aux)
 -viec-con-lai.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
 
 (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count357
-\scratchdimen=\dimen345
-\scratchbox=\box138
-\nofMPsegments=\count358
-\nofMParguments=\count359
-\everyMPshowfont=\toks52
-\MPscratchCnt=\count360
-\MPscratchDim=\dimen346
-\MPnumerator=\count361
-\makeMPintoPDFobject=\count362
-\everyMPtoPDFconversion=\toks53
+\scratchcounter=\count365
+\scratchdimen=\dimen349
+\scratchbox=\box140
+\nofMPsegments=\count366
+\nofMParguments=\count367
+\everyMPshowfont=\toks53
+\MPscratchCnt=\count368
+\MPscratchDim=\dimen350
+\MPnumerator=\count369
+\makeMPintoPDFobject=\count370
+\everyMPtoPDFconversion=\toks54
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1369,6 +1393,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
@@ -1406,17 +1431,18 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 81.
+Package hyperref Info: Link coloring ON on input line 82.
 (C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\main.out)
 (C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
+\c@lstlisting=\count371
 \openout2 = `./parts/0.first-page.aux'.
 
 
 (parts/0.first-page.tex
-<image/local/hcmut.png, id=70, 272.01625pt x 277.035pt>
+<image/local/hcmut.png, id=190, 272.01625pt x 277.035pt>
 File: image/local/hcmut.png Graphic file (type png)
 <use image/local/hcmut.png>
 Package pdftex.def Info: image/local/hcmut.png  used on input line 10.
@@ -1442,47 +1468,51 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 
 {C:/ProgramData/MiKTeX/fonts/map/pdftex/pdftex.map} <./image/local/hcmut.png>])
 
-(C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\main.toc)
-\tf@toc=\write5
-\openout5 = `main.toc'.
-
+(C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\main.toc
 File: image/local/hcmut.png Graphic file (type png)
 <use image/local/hcmut.png>
-Package pdftex.def Info: image/local/hcmut.png  used on input line 87.
+Package pdftex.def Info: image/local/hcmut.png  used on input line 46.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
-LaTeX Font Info:    Trying to load font information for T5+cmtt on input line 8
-7.
+LaTeX Font Info:    Trying to load font information for T5+cmtt on input line 4
+6.
 
 (C:\Program Files\MiKTeX\tex/latex/vntex\t5cmtt.fd
 File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `T5/cmtt/bx/n' in size <10> not available
-(Font)              Font shape `T5/cmtt/m/n' tried instead on input line 87.
+(Font)              Font shape `T5/cmtt/m/n' tried instead on input line 46.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.87     \newpage
-                  [1
+l.46 ...ông t·∫°o c√¢u h·ªèi:}{14}{subsection.6.3}
+                                                  % [1
 
 
-]
+])
+\tf@toc=\write5
+\openout5 = `main.toc'.
+
+File: image/local/hcmut.png Graphic file (type png)
+<use image/local/hcmut.png>
+Package pdftex.def Info: image/local/hcmut.png  used on input line 88.
+(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
+ [2]
 \openout2 = `./parts/0.intro.aux'.
 
  (parts/0.intro.tex)
 File: image/local/hcmut.png Graphic file (type png)
 <use image/local/hcmut.png>
-Package pdftex.def Info: image/local/hcmut.png  used on input line 88.
+Package pdftex.def Info: image/local/hcmut.png  used on input line 89.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [2
+ [3
 
 ]
 \openout2 = `./parts/1.phuong-phap-trich-xuat-quan-he-truyen-thong.aux'.
 
-
-(parts/1.phuong-phap-trich-xuat-quan-he-truyen-thong.tex
-<image/parts/1.png, id=115, 533.995pt x 238.8925pt>
+ (parts/1.phuong-phap-trich-xuat-quan-he-truyen-thong.tex
+<image/parts/1.png, id=270, 533.995pt x 238.8925pt>
 File: image/parts/1.png Graphic file (type png)
 <use image/parts/1.png>
 Package pdftex.def Info: image/parts/1.png  used on input line 23.
@@ -1529,12 +1559,12 @@ File: image/local/hcmut.png Graphic file (type png)
 <use image/local/hcmut.png>
 Package pdftex.def Info: image/local/hcmut.png  used on input line 54.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
-[3
+[4
 
 
 
  <./image/parts/1.png (PNG copy)>]
-<image/parts/2.png, id=132, 666.49pt x 280.04625pt>
+<image/parts/2.png, id=287, 666.49pt x 280.04625pt>
 File: image/parts/2.png Graphic file (type png)
 <use image/parts/2.png>
 Package pdftex.def Info: image/parts/2.png  used on input line 70.
@@ -1682,8 +1712,8 @@ File: image/local/hcmut.png Graphic file (type png)
 <use image/local/hcmut.png>
 Package pdftex.def Info: image/local/hcmut.png  used on input line 86.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
-[4 <./image/parts/2.png>]
-<image/parts/3.jpg, id=145, 565.11125pt x 44.165pt>
+[5 <./image/parts/2.png>]
+<image/parts/3.jpg, id=300, 565.11125pt x 44.165pt>
 File: image/parts/3.jpg Graphic file (type jpg)
 <use image/parts/3.jpg>
 Package pdftex.def Info: image/parts/3.jpg  used on input line 104.
@@ -1721,8 +1751,8 @@ File: image/local/hcmut.png Graphic file (type png)
 <use image/local/hcmut.png>
 Package pdftex.def Info: image/local/hcmut.png  used on input line 148.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
-[5 <./image/parts/3.jpg>]
-<image/parts/4.jpg, id=163, 440.64626pt x 226.8475pt>
+[6 <./image/parts/3.jpg>]
+<image/parts/4.jpg, id=319, 440.64626pt x 226.8475pt>
 File: image/parts/4.jpg Graphic file (type jpg)
 <use image/parts/4.jpg>
 Package pdftex.def Info: image/parts/4.jpg  used on input line 152.
@@ -1760,7 +1790,7 @@ File: image/local/hcmut.png Graphic file (type png)
 <use image/local/hcmut.png>
 Package pdftex.def Info: image/local/hcmut.png  used on input line 161.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
-[6 <./image/parts/4.jpg>]
+[7 <./image/parts/4.jpg>]
 parts/1.phuong-phap-trich-xuat-quan-he-truyen-thong.tex:176: Missing $ inserted
 .
 <inserted text> 
@@ -1787,17 +1817,17 @@ or  <return>  to continue without it.
 )
 File: image/local/hcmut.png Graphic file (type png)
 <use image/local/hcmut.png>
-Package pdftex.def Info: image/local/hcmut.png  used on input line 91.
+Package pdftex.def Info: image/local/hcmut.png  used on input line 92.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [7]
+ [8]
 \openout2 = `./parts/2.phuong-phap-hoc-sau-(deep-learning).aux'.
 
  (parts/2.phuong-phap-hoc-sau-(deep-learning).tex)
 File: image/local/hcmut.png Graphic file (type png)
 <use image/local/hcmut.png>
-Package pdftex.def Info: image/local/hcmut.png  used on input line 92.
+Package pdftex.def Info: image/local/hcmut.png  used on input line 93.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [8
+ [9
 
 
 
@@ -1805,12 +1835,26 @@ Package pdftex.def Info: image/local/hcmut.png  used on input line 92.
 \openout2 = `./parts/3.cac-mrc-phu-hop-voi-tieng-viet.aux'.
 
 
-(parts/3.cac-mrc-phu-hop-voi-tieng-viet.tex)
+(parts/3.cac-mrc-phu-hop-voi-tieng-viet.tex
+parts/3.cac-mrc-phu-hop-voi-tieng-viet.tex:7: Misplaced alignment tab character
+ &.
+<argument> ...uy Pham, Anh Nguyen, Truong Son Hy &
+                                                   Tu Vu (2023)
+l.7 ..., Anh Nguyen, Truong Son Hy & Tu Vu (2023)}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+)
 File: image/local/hcmut.png Graphic file (type png)
 <use image/local/hcmut.png>
-Package pdftex.def Info: image/local/hcmut.png  used on input line 96.
+Package pdftex.def Info: image/local/hcmut.png  used on input line 97.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [9
+ [10
 
 
 
@@ -1818,26 +1862,114 @@ Package pdftex.def Info: image/local/hcmut.png  used on input line 96.
 \openout2 = `./parts/4.dinh-nghia-cac-loai-quan-he-uoc-rut-trich-linh-vuc-giao-
 duc.aux'.
 
+ (parts/4.dinh-nghia-cac-loai-quan-he-uoc-rut-trich-linh-vuc-giao-duc.tex
+Underfull \hbox (badness 4181) in paragraph at lines 19--21
+\T5/cmr/m/n/10 - Stu-dent_ask_intent (Stu-dent ask about an in-tent): - Student
+(id=$[]$2033009$[]$) <----
+ []
 
-(parts/4.dinh-nghia-cac-loai-quan-he-uoc-rut-trich-linh-vuc-giao-duc.tex)
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--40
+\T5/cmr/m/n/10 - Sub-jects_same_Subject: - Student(id=$[]$2033009$[]$) <----Stu
+dent_ask_intent---->
+ []
+
 File: image/local/hcmut.png Graphic file (type png)
 <use image/local/hcmut.png>
-Package pdftex.def Info: image/local/hcmut.png  used on input line 99.
+Package pdftex.def Info: image/local/hcmut.png  used on input line 40.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
-
-[10
+[11
 
 
 
 ]
+parts/4.dinh-nghia-cac-loai-quan-he-uoc-rut-trich-linh-vuc-giao-duc.tex:42: You
+ can't use `macro parameter character #' in horizontal mode.
+l.42             - Student\_paid\_tuition: #
+                                             h·ªçc sinh ƒë√£ thanh to√°n h·ª...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--49
+\T5/cmr/m/n/10 - Stu-dent_paid_tuition:  hÂc sinh ^^_¢ thanh to°n hÂc phΩ hÂc k
+º 1 -
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--66
+\T5/cmr/m/n/10 - In-tents_qualities_for_student: - Ex-ample 1: - Student(id=$[]
+$2033009$[]$) <----
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--66
+\T5/cmr/m/n/10 Student_ask_intent----> Intents(name=$[]$Chu©n sinh_vi∂n$[]$) - 
+Intents(name=$[]$Chu©n
+ []
+
+
+Underfull \hbox (badness 1496) in paragraph at lines 59--66
+\T5/cmr/m/n/10 sinh_vi∂n$[]$) <----Intents_qualities_for_student----> Eng-lish_
+Certificate() - Ex-ample 2: -
+ []
+
+
+Underfull \hbox (badness 4454) in paragraph at lines 59--66
+\T5/cmr/m/n/10 Student(id=$[]$2033009$[]$) <----Student_ask_intent----> Intents
+(name=$[]$H‰i v∑ chu©n ngo§i
+ []
+
+
+Underfull \hbox (badness 1303) in paragraph at lines 59--66
+\T5/cmr/m/n/10 ng˙$[]$) - Intents(name=$[]$H‰i v∑ chu©n ngo§i ng˙$[]$) <----Int
+ents_qualities_for_student---->
+ []
+
+
+Package hyperref Warning: bookmark level for unknown subsubsubsection defaults 
+to 0.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--71
+\T5/cmr/m/n/10 - In-tents_print_scores: - Student(id=$[]$2033009$[]$) <----Stud
+ent_ask_intent---->
+ []
+
+
+Underfull \hbox (badness 1377) in paragraph at lines 68--71
+\T5/cmr/m/n/10 Intents(name=$[]$^^^´ng kΩ in b£ng ^^_i∫m$[]$) - Intents(name=$[
+]$^^^´ng kΩ in b£ng ^^_i∫m$[]$) <----
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 72--75
+\T5/cmr/m/n/10 -> Intents(name=$[]$H‰i ^^_i∑u kiªn nh™n lu™n v´n$[]$) - Intents
+(name=$[]$H‰i ^^_i∑u kiªn
+ []
+
+
+Underfull \hbox (badness 7759) in paragraph at lines 72--75
+\T5/cmr/m/n/10 nh™n lu™n v´n$[]$) <----Intents_ask_condition_register_thesis---
+-> URL('url about In-
+ []
+
+)
+File: image/local/hcmut.png Graphic file (type png)
+<use image/local/hcmut.png>
+Package pdftex.def Info: image/local/hcmut.png  used on input line 100.
+(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
+ [12]
 \openout2 = `./parts/6.ket-qua-thu-nghiem.aux'.
 
  (parts/6.ket-qua-thu-nghiem.tex)
 File: image/local/hcmut.png Graphic file (type png)
 <use image/local/hcmut.png>
-Package pdftex.def Info: image/local/hcmut.png  used on input line 102.
+Package pdftex.def Info: image/local/hcmut.png  used on input line 103.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [11
+ [13
 
 
 
@@ -1845,16 +1977,21 @@ Package pdftex.def Info: image/local/hcmut.png  used on input line 102.
 \openout2 = `./parts/5.danh-sach-cong-viec-con-lai.aux'.
 
 
-(parts/5.danh-sach-cong-viec-con-lai.tex)
+(parts/5.danh-sach-cong-viec-con-lai.tex
 File: image/local/hcmut.png Graphic file (type png)
 <use image/local/hcmut.png>
-Package pdftex.def Info: image/local/hcmut.png  used on input line 105.
+Package pdftex.def Info: image/local/hcmut.png  used on input line 43.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [12
+ [14
 
 
 
-]
+])
+File: image/local/hcmut.png Graphic file (type png)
+<use image/local/hcmut.png>
+Package pdftex.def Info: image/local/hcmut.png  used on input line 106.
+(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
+ [15]
 
 enddocument/afterlastpage: lastpage setting LastPage.
 (C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\main.aux
@@ -1877,16 +2014,16 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 68DD5856471E9F511CBA70FA639655B8;4051.
+(rerunfilecheck)             Checksum: E735D1D7D7C2C8A2AA01A80EC78E068E;9791.
  ) 
 Here is how much of TeX's memory you used:
- 27117 strings out of 474486
- 527137 string characters out of 5753570
- 1938542 words of memory out of 5000000
- 48723 multiletter control sequences out of 15000+600000
+ 28522 strings out of 474486
+ 548024 string characters out of 5753570
+ 1946542 words of memory out of 5000000
+ 50086 multiletter control sequences out of 15000+600000
  578545 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 104i,24n,115p,737b,489s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 104i,25n,115p,737b,604s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\luuqu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1000.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/
 Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files
@@ -1899,9 +2036,9 @@ ts/type1/vntex/vnr/vnr10.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vnr
 s/MiKTeX/fonts/type1/vntex/vnr/vnti9.pfb><C:/Program Files/MiKTeX/fonts/type1/v
 ntex/vnr/vntt10.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vntt8.pfb>
 Output written on C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\main.
-pdf (13 pages, 357396 bytes).
+pdf (16 pages, 396117 bytes).
 PDF statistics:
- 311 PDF objects out of 1000 (max. 8388607)
- 36 named destinations out of 1000 (max. 500000)
- 166 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 486 PDF objects out of 1000 (max. 8388607)
+ 69 named destinations out of 1000 (max. 500000)
+ 406 words of extra memory for PDF output out of 10000 (max. 10000000)
 
