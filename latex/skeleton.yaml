@@ -1,0 +1,146 @@
+
+- Approach way to relation extraction:
+    - Main URL:
+        - https://arxiv.org/pdf/1712.05191
+        - Skeleton:
+            - Traditional methods of RE:
+                - Rule based methods
+                - Unsupervised methods
+                - Supervised methods
+                - Semi-supervised methods
+                - Distant supervision methods
+            - Deep learning methods:
+                - CNN based methods:
+                    - CNN based supervised IE
+                    - CNN based distant supervision IE
+                - RNN and LSTM based methods:
+                - Encoder-decoder/transformer based methods:
+                    -> we are here (MRC)
+            - Domain specific relation extraction:
+            - Low resource language relation extraction:
+            - Conclusion and future research direction:
+    
+    - Other reference paper:
+        https://arxiv.org/pdf/1712.05191
+
+- Transformers architect:
+- Bert architect:
+
+- MRC candidate for Vietnamese:
+    - Fine-turned model
+      - XML-net  fine-turn for QA task -> not correct.
+      - Pho-bert fine-turn for QA task -> not correct.
+      - Vi-deberta fine-turn for QA -> my lab, may be fit with data set / domain.
+    - 3rd API
+      - ChatGPT
+      - Gemini from Google
+    
+    - My choice:
+        -> About 1, 2, 3:
+          - need more time research to improve performance, =(
+          - need high resource to fine-turn (In my lab, I using 12GB GPU to train a small model 22M parameter, in 8h)
+            -> If I can, I think I will improve it in Phase 2. I will find solution with low GPU
+        
+        -> About 4:
+          - Cannot fine-turn for custom domain, custom data.
+          - Depend on 3rd API (performance, optimize speed, rate limit when call api).
+            -> In this phase I will using this to demo.
+
+- Type relation in education domain:
+    - Strategy using MRC for relation extraction:
+        - Entities:
+            - Intents
+            - Terms:
+                - Attributes:
+                    - name
+                    - course_schedules
+                    - time register course
+                    - time start
+                    - time end
+            - Papers
+            - Subject
+            - Student
+            - Lecturers
+            - Academic_service_Office
+            - English_Certificate
+            - URL
+        - Relations:
+            # hỏi ý định rút môn
+            - Intents_cancel_target_subject (Intents target to Subject):
+                - Ex: Intents(name="Rut Mon Hoc") <----Intents_cancel_target_subject----> Subject(name="Toan roi rac")
+            
+            # hỏi chung về ý định
+            - Student_ask_intent (Student ask about an intent):
+                - Student(id="2033009") <----Student_ask_intent----> Intents(name="Rut Mon Hoc")
+            
+            # hỏi thời gian bat81 đầu đăng ký môn
+            - Student_ask_time_register_course (Student ask about an intent):
+                - Student(id="2033009") <----Student_ask_intent ----> Intents(name="Đăng ký môn")
+                - Intents(name="Đăng ký môn") <----time_register_course ----> Terms(name="HK201")
+            
+            # hỏi lịch học
+            - Intents_schedule_course_with_term (Student ask about an intent):
+                - Student(id="2033009") <----Student_ask_intent----> Intents(name="Hỏi lịch học")
+                - Intents(name="Hỏi lịch học") <----Intents_schedule_course_with_term ----> Terms(name="HK201")
+            
+            # hỏi môn tương đương
+            - Subjects_same_Subject:
+                - Subject(name="Toán rời rạc")  <----Subjects_same_Subject ----> Subject(name="Cấu trúc rời rạc cho KHMT")
+            
+            # đăng kí gia hạn
+            - Subjects_same_Subject:
+                - Student(id="2033009") <----Student_ask_intent----> Intents(name="đăng kí gia hạn")
+                - Intents(name="đăng kí gia hạn") <----Student_ask_intent---->
+            
+            # hỏi học phí
+            - Student_paid_tuition: # học sinh đã thanh toán học phí học kì 1
+                - Student(id="2033009")
+                  <----Student_paid_tuition---->
+                  Intents(
+                  name="Thanh_toán học_phí",
+                  term=Terms(name="HK201"),
+                  )
+            
+            # Thay đổi đăng ký môn học
+            - Student_change_courses:
+                - Student(id="2033009")
+                  <----Student_change_courses---->
+                  Intents(
+                  name="Thay đổi đăng ký môn học",
+                  term=Terms(name="HK201"),
+                  )
+            # hỏi về chuẩn ngoại ngữ
+            - Intents_qualities_for_student:
+                - Example 1:
+                  - Student(id="2033009") <----Student_ask_intent----> Intents(name="Chuẩn sinh_viên")
+                  - Intents(name="Chuẩn sinh_viên") <----Intents_qualities_for_student----> English_Certificate()
+                - Example 2:
+                  - Student(id="2033009") <----Student_ask_intent----> Intents(name="Hỏi về chuẩn ngoại ngữ")
+                  - Intents(name="Hỏi về chuẩn ngoại ngữ") <----Intents_qualities_for_student----> English_Certificate()
+            ################
+            ################
+            ################
+            # URLs
+            # hỏi đăng kí in bảng điểm
+            - Intents_print_scores:
+                  - Student(id="2033009") <----Student_ask_intent----> Intents(name="Đăng kí in bảng điểm")
+                  - Intents(name="Đăng kí in bảng điểm") <----Intents_print_scores----> URL('url about print student score')
+            # hỏi điều kiện nhận luận văn
+            - Intents_ask_condition_register_thesis:
+                  - Student(id="2033009") <----Student_ask_intent----> Intents(name="Hỏi điều kiện nhận luận văn")
+                  - Intents(name="Hỏi điều kiện nhận luận văn") <----Intents_ask_condition_register_thesis----> URL('url about Intents_ask_condition_register_thesis')
+            # hỏi điều kiện tốt nghiệp
+            - Intents_ask_condition_graduated:
+                  - Student(id="2033009") <----Student_ask_intent----> Intents(name="Hỏi điều kiện tốt nghiệp")
+                  - Intents(name="Hỏi điều kiện tốt nghiệp") <----Intents_ask_condition_graduated----> URL('url about Intents_ask_condition_graduated')
+
+- Experimental Results:
+    - Intro measure
+
+- Unworked list:
+    - My work is too simple, need to improve more about there point:
+      - Improve performance of fine-turned model (vi-deberta)
+      - Entity attribute extraction
+      - Improve performance MRC without a 3rd API
+      - Auto discovery relation, auto generate question
+      - Evaluate performance metric of a MRC
