@@ -470,11 +470,11 @@ Eddy là một framework cho adaptive query processing. Nó được phát tri�
     Cho một bộ các vị từ, Eddy phải chọn một cách thích ứng với mỗi bộ sẽ được gửi. Hai nguyên tắc chính để chọn là chi phí và tính chọn lọc. Chi phí vị từ được đo lường như một hàm của tỷ lệ tiêu thụ mỗi vị từ. Chiến lược định tuyến của Eddy là cơ chế lập lịch xổ số đơn giản. Chiến lược gán một vé cho vị từ bất cứ khi nào vị từ sau được lên lịch một bộ giá trị. Khi một bộ giá trị được xử lý xong và trả lại cho Eddy vị từ tương ứng sẽ giảm lượng vé của nó. Việc kết hợp các tiêu chí chi phí và độ chọn lọc trở nên dễ dàng. Eddy liên tục chạy xổ số giữa các
    vị từ hiện đang yêu cầu bộ giá trị, vị từ có số lượng cao sẽ thắng vé và được xếp lịch.
 \end{itemize}
-\subsection{Query Translation and Execution}
+\subsection{Query Translation and Execution}\label{subsec:query-translation-and-execution}
 Việc dịch và thực thi truy vấn được thực hiện bởi các wrapper sử dụng các cơ sở dữ liệu thành phần. Một wrapper đóng gói các chi tiết của một họăc nhiều DBMS thành phần, mỗi cơ sở dữ liệu được hỗ trợ bởi cùng một DBMS (hoặc hệ thống tệp). Nó cũng xuất cho mediator các khả năng DBMS thành phần và các chức năng chi phí trong một giao diện chung. Một trong những ứng dụng thực tế chính của wrapper là cho phép một DBMS dựa trên SQL truy cập vào cơ sở dữ liệu không phải SQL.
 
 
-\subsection{Conclusion}
+\subsection{Conclusion}\label{subsec:conclusion}
 Xử lý truy vấn trong hệ thống đa cơ sở dữ liệu phức tạp hơn đáng kể so với trong các DBMS phân tán đồng nhất và được tích hợp chặt chẽ. Ngoài việc bị phân tán, cơ sở dữ liệu thành phần có thể tự trị, có các ngôn ngữ cơ sở dữ liệu khác nhau và khả năng xử lý truy vấn và thể hiện các hành vi khác nhau. Đặc biệt, cơ sở dữ liệu thành phần có thể bao gồm từ cơ sở dữ liệu SQL chính thức đến các nguồn dữ liệu rất đơn giản.
 
 

@@ -1,29 +1,9 @@
 \babel@toc {british}{}\relax 
-\contentsline {section}{\numberline {1}Approach way to relation extraction}{2}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Bottom-Up Design Methodology}{2}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Schema Matching}{3}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Schema Integration}{3}{subsection.1.3}%
-\contentsline {subsection}{\numberline {1.4}Schema Mapping}{3}{subsection.1.4}%
-\contentsline {subsection}{\numberline {1.5}Data Cleaning}{3}{subsection.1.5}%
-\contentsline {subsection}{\numberline {1.6}Kết luận}{4}{subsection.1.6}%
-\contentsline {section}{\numberline {2}Multidatabase Query Processing}{6}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Issues in Multidatabase Query Processing}{6}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Multidatabase Query Processing Architecture}{7}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Query Rewriting Using Views}{10}{subsection.2.3}%
-\contentsline {subsubsection}{\numberline {2.3.1}Datalog Terminology}{10}{subsubsection.2.3.1}%
-\contentsline {subsubsection}{\numberline {2.3.2}Rewriting in GAV}{10}{subsubsection.2.3.2}%
-\contentsline {subsubsection}{\numberline {2.3.3}Rewriting in LAV}{11}{subsubsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.4}Query Optimization and Execution}{11}{subsection.2.4}%
-\contentsline {subsubsection}{\numberline {2.4.1}Heterogeneous Cost Modeling}{12}{subsubsection.2.4.1}%
-\contentsline {subsubsubsection}{\numberline {2.4.1.a}Black box approach}{12}{subsubsubsection.2.4.1.1}%
-\contentsline {subsubsubsection}{\numberline {2.4.1.b}Customized Approach}{13}{subsubsubsection.2.4.1.2}%
-\contentsline {subsubsubsection}{\numberline {2.4.1.c}Dynamic Approach}{13}{subsubsubsection.2.4.1.3}%
-\contentsline {subsubsection}{\numberline {2.4.2}Heterogeneous Query Optimization}{14}{subsubsection.2.4.2}%
-\contentsline {subsubsubsection}{\numberline {2.4.2.a}Query-based Approach}{14}{subsubsubsection.2.4.2.1}%
-\contentsline {subsubsubsection}{\numberline {2.4.2.b}Operator-based Approach}{14}{subsubsubsection.2.4.2.2}%
-\contentsline {subsubsection}{\numberline {2.4.3}Adaptive Query Processing}{14}{subsubsection.2.4.3}%
-\contentsline {subsubsubsection}{\numberline {2.4.3.a}Adaptive Query Processing Process}{15}{subsubsubsection.2.4.3.1}%
-\contentsline {subsubsubsection}{\numberline {2.4.3.b}Eddy Approach}{15}{subsubsubsection.2.4.3.2}%
-\contentsline {subsection}{\numberline {2.5}Query Translation and Execution}{16}{subsection.2.5}%
-\contentsline {subsection}{\numberline {2.6}Conclusion}{16}{subsection.2.6}%
-\contentsline {section}{\numberline {3}References}{17}{section.3}%
+\contentsline {section}{\numberline {1}Giới thiệu}{2}{section.1}%
+\contentsline {section}{\numberline {2}Phương pháp trích xuất quan hệ}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Các phương pháp truyền thống}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Phương pháp học sâu (Deep learning)}{4}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Các MRC phù hợp với Tiếng Việt}{5}{section.3}%
+\contentsline {section}{\numberline {4}Định nghĩa các loại quan hệ được rút trích lĩnh vực giáo dục}{6}{section.4}%
+\contentsline {section}{\numberline {5}Kết quả thử nghiệm}{7}{section.5}%
+\contentsline {section}{\numberline {6}Danh sách công việc còn lại}{8}{section.6}%

@@ -16,10 +16,7 @@
                 - RNN and LSTM based methods:
                 - Encoder-decoder/transformer based methods:
                     -> we are here (MRC)
-            - :
-            - Low resource language relation extraction:
-            - Conclusion and future research direction:
-    
+
     - Other reference paper:
         https://arxiv.org/pdf/1712.05191
 
@@ -34,13 +31,13 @@
     - 3rd API
       - ChatGPT
       - Gemini from Google
-    
+
     - My choice:
         -> About 1, 2, 3:
           - need more time research to improve performance, =(
           - need high resource to fine-turn (In my lab, I using 12GB GPU to train a small model 22M parameter, in 8h)
             -> If I can, I think I will improve it in Phase 2. I will find solution with low GPU
-        
+
         -> About 4:
           - Cannot fine-turn for custom domain, custom data.
           - Depend on 3rd API (performance, optimize speed, rate limit when call api).
@@ -68,30 +65,30 @@
             # hỏi ý định rút môn
             - Intents_cancel_target_subject (Intents target to Subject):
                 - Ex: Intents(name="Rut Mon Hoc") <----Intents_cancel_target_subject----> Subject(name="Toan roi rac")
-            
+
             # hỏi chung về ý định
             - Student_ask_intent (Student ask about an intent):
                 - Student(id="2033009") <----Student_ask_intent----> Intents(name="Rut Mon Hoc")
-            
+
             # hỏi thời gian bat81 đầu đăng ký môn
             - Student_ask_time_register_course (Student ask about an intent):
                 - Student(id="2033009") <----Student_ask_intent ----> Intents(name="Đăng ký môn")
                 - Intents(name="Đăng ký môn") <----time_register_course ----> Terms(name="HK201")
-            
+
             # hỏi lịch học
             - Intents_schedule_course_with_term (Student ask about an intent):
                 - Student(id="2033009") <----Student_ask_intent----> Intents(name="Hỏi lịch học")
                 - Intents(name="Hỏi lịch học") <----Intents_schedule_course_with_term ----> Terms(name="HK201")
-            
+
             # hỏi môn tương đương
             - Subjects_same_Subject:
                 - Subject(name="Toán rời rạc")  <----Subjects_same_Subject ----> Subject(name="Cấu trúc rời rạc cho KHMT")
-            
+
             # đăng kí gia hạn
             - Subjects_same_Subject:
                 - Student(id="2033009") <----Student_ask_intent----> Intents(name="đăng kí gia hạn")
                 - Intents(name="đăng kí gia hạn") <----Student_ask_intent---->
-            
+
             # hỏi học phí
             - Student_paid_tuition: # học sinh đã thanh toán học phí học kì 1
                 - Student(id="2033009")
@@ -100,7 +97,7 @@
                   name="Thanh_toán học_phí",
                   term=Terms(name="HK201"),
                   )
-            
+
             # Thay đổi đăng ký môn học
             - Student_change_courses:
                 - Student(id="2033009")
