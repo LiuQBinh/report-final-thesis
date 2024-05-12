@@ -1,44 +1,51 @@
 \babel@toc {british}{}\relax 
-\contentsline {section}{\numberline {1}Giới thiệu}{2}{section.1}%
-\contentsline {section}{\numberline {2}Phương pháp trích xuất quan hệ}{3}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Các phương pháp truyền thống}{3}{subsection.2.1}%
-\contentsline {subsubsection}{\numberline {2.1.1}Phương pháp dựa trên luật ({Rule-based})}{4}{subsubsection.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.2}Phương pháp không giám sát (Unsupervised)}{5}{subsubsection.2.1.2}%
-\contentsline {subsubsection}{\numberline {2.1.3}Phương pháp có giám sát (Supervised)}{5}{subsubsection.2.1.3}%
-\contentsline {subsubsection}{\numberline {2.1.4}Phương pháp bán giám sát (Semi-supervised)}{5}{subsubsection.2.1.4}%
-\contentsline {subsubsection}{\numberline {2.1.5}Phương pháp giám sát từ xa (Distant supervision)}{7}{subsubsection.2.1.5}%
-\contentsline {subsection}{\numberline {2.2}Phương pháp học sâu (Deep learning)}{8}{subsection.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.1}Các hướng tiếp cận dựa trên phương pháp CNN (CNN based methods)}{8}{subsubsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.2}Phương pháp dựa trên RNN và LSTM (RNN and LSTM based methods)}{9}{subsubsection.2.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.3}Encoder-decoder/transformer based methods}{10}{subsubsection.2.2.3}%
-\contentsline {subsubsubsection}{\numberline {2.2.3.a}Neural OpenIE (\href {https://aclanthology.org/P18-2065}{\textit {Cui et al. (2018)}})}{10}{subsubsubsection.2.2.3.1}%
-\contentsline {subsubsubsection}{\numberline {2.2.3.b}Transformer based OpenIE(\href {https://www.sciencedirect.com/science/article/pii/S2667305323000698####br0450}{Han and Wang (2021)})}{11}{subsubsubsection.2.2.3.2}%
-\contentsline {subsubsubsection}{\numberline {2.2.3.c}Multi2OIE (\href {https://aclanthology.org/2020.findings-emnlp.99}{\textit {Ro et al. (2020)}})}{12}{subsubsubsection.2.2.3.3}%
-\contentsline {section}{\numberline {3}Các MRC phù hợp với Tiếng Việt}{13}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Mô hình tinh chỉnh (Fine-tuned model):}{13}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}API của bên thứ ba (3rd party API):}{13}{subsection.3.2}%
-\contentsline {section}{\numberline {4}Định nghĩa các loại quan hệ được rút trích lĩnh vực giáo dục}{14}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Entities}{14}{subsection.4.1}%
-\contentsline {subsubsection}{\numberline {4.1.1}Intents}{14}{subsubsection.4.1.1}%
-\contentsline {subsubsection}{\numberline {4.1.2}Terms}{14}{subsubsection.4.1.2}%
-\contentsline {subsubsection}{\numberline {4.1.3}Papers}{14}{subsubsection.4.1.3}%
-\contentsline {subsubsection}{\numberline {4.1.4}Subject}{14}{subsubsection.4.1.4}%
-\contentsline {subsubsection}{\numberline {4.1.5}Student}{14}{subsubsection.4.1.5}%
-\contentsline {subsubsection}{\numberline {4.1.6}Lecturers}{14}{subsubsection.4.1.6}%
-\contentsline {subsubsection}{\numberline {4.1.7}Academic\_service\_Office}{14}{subsubsection.4.1.7}%
-\contentsline {subsubsection}{\numberline {4.1.8}English\_Certificate}{14}{subsubsection.4.1.8}%
-\contentsline {subsubsection}{\numberline {4.1.9}URL}{14}{subsubsection.4.1.9}%
-\contentsline {subsection}{\numberline {4.2}Relations}{14}{subsection.4.2}%
-\contentsline {subsubsection}{\numberline {4.2.1}hỏi ý định rút môn}{14}{subsubsection.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2}hỏi chung về ý định}{14}{subsubsection.4.2.2}%
-\contentsline {subsubsection}{\numberline {4.2.3}hỏi thời gian bat81 đầu đăng ký môn}{14}{subsubsection.4.2.3}%
-\contentsline {subsubsection}{\numberline {4.2.4}hỏi lịch học}{14}{subsubsection.4.2.4}%
-\contentsline {subsubsection}{\numberline {4.2.5}hỏi môn tương đương}{14}{subsubsection.4.2.5}%
-\contentsline {subsubsection}{\numberline {4.2.6}đăng kí gia hạn}{15}{subsubsection.4.2.6}%
-\contentsline {subsubsection}{\numberline {4.2.7}hỏi học phí}{15}{subsubsection.4.2.7}%
-\contentsline {subsubsection}{\numberline {4.2.8}Thay đổi đăng ký môn học}{15}{subsubsection.4.2.8}%
-\contentsline {subsubsection}{\numberline {4.2.9}hỏi về chuẩn ngoại ngữ}{15}{subsubsection.4.2.9}%
-\contentsline {subsubsection}{\numberline {4.2.10}URLs}{15}{subsubsection.4.2.10}%
-\contentsline {subsubsubsection}{\numberline {4.2.10.a}hỏi đăng kí in bảng điểm}{15}{subsubsubsection.4.2.10.1}%
-\contentsline {subsubsubsection}{\numberline {4.2.10.b}hỏi điều kiện nhận luận văn}{15}{subsubsubsection.4.2.10.2}%
-\contentsline {subsubsubsection}{\numberline {4.2.10.c}hỏi điều kiện tốt nghiệp}{15}{subsubsubsection.4.2.10.3}%
+\contentsline {section}{\numberline {1}Giới thiệu}{3}{section.1}%
+\contentsline {section}{\numberline {2}Phương pháp trích xuất quan hệ}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Các phương pháp truyền thống}{4}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Phương pháp dựa trên luật ({Rule-based})}{5}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Phương pháp không giám sát (Unsupervised)}{6}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}Phương pháp có giám sát (Supervised)}{6}{subsubsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.4}Phương pháp bán giám sát (Semi-supervised)}{6}{subsubsection.2.1.4}%
+\contentsline {subsubsection}{\numberline {2.1.5}Phương pháp giám sát từ xa (Distant supervision)}{8}{subsubsection.2.1.5}%
+\contentsline {subsection}{\numberline {2.2}Phương pháp học sâu (Deep learning)}{9}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Các hướng tiếp cận dựa trên phương pháp CNN (CNN based methods)}{9}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Phương pháp dựa trên RNN và LSTM (RNN and LSTM based methods)}{10}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Encoder-decoder/transformer based methods}{11}{subsubsection.2.2.3}%
+\contentsline {subsubsubsection}{\numberline {2.2.3.a}Neural OpenIE (\href {https://aclanthology.org/P18-2065}{\textit {Cui et al. (2018)}})}{11}{subsubsubsection.2.2.3.1}%
+\contentsline {subsubsubsection}{\numberline {2.2.3.b}Transformer based OpenIE(\href {https://www.sciencedirect.com/science/article/pii/S2667305323000698####br0450}{Han and Wang (2021)})}{12}{subsubsubsection.2.2.3.2}%
+\contentsline {subsubsubsection}{\numberline {2.2.3.c}Multi2OIE (\href {https://aclanthology.org/2020.findings-emnlp.99}{\textit {Ro et al. (2020)}})}{13}{subsubsubsection.2.2.3.3}%
+\contentsline {section}{\numberline {3}Các MRC phù hợp với Tiếng Việt}{14}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Mô hình tinh chỉnh (Fine-tuned model):}{14}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}API của bên thứ ba (3rd party API):}{14}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Định nghĩa các loại quan hệ được rút trích lĩnh vực giáo dục}{15}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Entities}{15}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Intents}{15}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}Terms}{15}{subsubsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.3}Papers}{15}{subsubsection.4.1.3}%
+\contentsline {subsubsection}{\numberline {4.1.4}Subject}{15}{subsubsection.4.1.4}%
+\contentsline {subsubsection}{\numberline {4.1.5}Student}{15}{subsubsection.4.1.5}%
+\contentsline {subsubsection}{\numberline {4.1.6}Lecturers}{15}{subsubsection.4.1.6}%
+\contentsline {subsubsection}{\numberline {4.1.7}Academic\_service\_Office}{15}{subsubsection.4.1.7}%
+\contentsline {subsubsection}{\numberline {4.1.8}English\_Certificate}{15}{subsubsection.4.1.8}%
+\contentsline {subsubsection}{\numberline {4.1.9}URL}{15}{subsubsection.4.1.9}%
+\contentsline {subsection}{\numberline {4.2}Relations}{16}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Hỏi ý định rút môn}{16}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Hỏi chung về ý định}{16}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}Hỏi thời gian bắt đầu đăng ký môn}{16}{subsubsection.4.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.4}Hỏi lịch học}{16}{subsubsection.4.2.4}%
+\contentsline {subsubsection}{\numberline {4.2.5}Hỏi môn tương đương}{16}{subsubsection.4.2.5}%
+\contentsline {subsubsection}{\numberline {4.2.6}Đăng kí gia hạn}{16}{subsubsection.4.2.6}%
+\contentsline {subsubsection}{\numberline {4.2.7}Hỏi học phí}{16}{subsubsection.4.2.7}%
+\contentsline {subsubsection}{\numberline {4.2.8}Thay đổi đăng ký môn học}{16}{subsubsection.4.2.8}%
+\contentsline {subsubsection}{\numberline {4.2.9}Hỏi về chuẩn ngoại ngữ}{16}{subsubsection.4.2.9}%
+\contentsline {subsubsection}{\numberline {4.2.10}URLs}{17}{subsubsection.4.2.10}%
+\contentsline {subsubsubsection}{\numberline {4.2.10.a}hỏi đăng kí in bảng điểm}{17}{subsubsubsection.4.2.10.1}%
+\contentsline {subsubsubsection}{\numberline {4.2.10.b}hỏi điều kiện nhận luận văn}{17}{subsubsubsection.4.2.10.2}%
+\contentsline {subsubsubsection}{\numberline {4.2.10.c}hỏi điều kiện tốt nghiệp}{17}{subsubsubsection.4.2.10.3}%
+\contentsline {section}{\numberline {5}Mo hình đề xuất, hướng tiếp cận và tập dữ liệu huấn luyện}{18}{section.5}%
+\contentsline {section}{\numberline {6}Kết quả thử nghiệm}{19}{section.6}%
+\contentsline {section}{\numberline {7}Danh sách công việc còn lại}{20}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Trích xuất thuộc tính thực thể:}{20}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Nâng cao hiệu suất mô hình đã tinh chỉnh, không cần API của bên thứ ba:}{20}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Khám phá mối quan hệ tự động và tự động tạo câu hỏi:}{20}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Đánh giá chỉ số hiệu suất của MRC:}{20}{subsection.7.4}%

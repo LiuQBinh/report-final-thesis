@@ -1,44 +1,66 @@
 \section{Định nghĩa các loại quan hệ được rút trích lĩnh vực giáo dục}\label{sec:inh-nghia-cac-loai-quan-he-uoc-rut-trich-linh-vuc-giao-duc}
 \subsection{Entities}\label{subsec:entities}
 \subsubsection{Intents}
+Enity đại điện cho ý định truy vấn của nguười dùng (sinh viên). Ví dụ:
+\begin{itemize}
+    \item Intents: rút môn
+    \item Intents: hỏi chung về ý định
+    \item Intents: hỏi thời gian bắt đầu đăng ký môn
+    \item Intents: hỏi lịch học
+    \item Intents: hỏi môn tương đương
+    \item Intents: đăng kí gia hạn
+\end{itemize}
+
 \subsubsection{Terms}
+Enity đại điện cho học kỳ. Ví dụ:
+\begin{itemize}
+    \item Terms: Terms(name="HỌC KỲ 2 NĂM HỌC 2023-2024")
+\end{itemize}
 \subsubsection{Papers}
+Enity đại điện cho paper mà sinh viên/giảng viên đã nghiên cứu.
 \subsubsection{Subject}
+Enity đại điện cho môn học.
 \subsubsection{Student}
+Enity đại điện cho sinh viên.
 \subsubsection{Lecturers}
+Enity đại điện cho giảng viên.
 \subsubsection{Academic\_service\_Office}
+Enity đại điện cho phòng đào tạo.
 \subsubsection{English\_Certificate}
+Enity đại điện cho chứng chỉ Anh văn.
 \subsubsection{URL}
+Enity đại điện cho link tài liệu.
+
 
 \subsection{Relations}\label{subsec:relations}
-            \subsubsection{hỏi ý định rút môn}
+            \subsubsection{Hỏi ý định rút môn}
             - Intents\_cancel\_target\_subject (Intents target to Subject):
                 - Ex: Intents(name=\('\)Rut Mon Hoc\('\)) <----Intents\_cancel\_target\_subject----> Subject(name=\('\)Toan roi rac\('\))
 
-            \subsubsection{hỏi chung về ý định}
+            \subsubsection{Hỏi chung về ý định}
             - Student\_ask\_intent (Student ask about an intent):
                 - Student(id=\('\)2033009\('\)) <----Student\_ask\_intent----> Intents(name=\('\)Rut Mon Hoc\('\))
 
-            \subsubsection{hỏi thời gian bat81 đầu đăng ký môn}
+            \subsubsection{Hỏi thời gian bắt đầu đăng ký môn}
             - Student\_ask\_time\_register\_course (Student ask about an intent):
                 - Student(id=\('\)2033009\('\)) <----Student\_ask\_intent ----> Intents(name=\('\)Đăng ký môn\('\))
                 - Intents(name=\('\)Đăng ký môn\('\)) <----time\_register\_course ----> Terms(name=\('\)HK201\('\))
 
-            \subsubsection{hỏi lịch học}
+            \subsubsection{Hỏi lịch học}
             - Intents\_schedule\_course\_with\_term (Student ask about an intent):
                 - Student(id=\('\)2033009\('\)) <----Student\_ask\_intent----> Intents(name=\('\)Hỏi lịch học\('\))
                 - Intents(name=\('\)Hỏi lịch học\('\)) <----Intents\_schedule\_course\_with\_term ----> Terms(name=\('\)HK201\('\))
 
-            \subsubsection{hỏi môn tương đương}
+            \subsubsection{Hỏi môn tương đương}
             - Subjects\_same\_Subject:
                 - Subject(name=\('\)Toán rời rạc\('\))  <----Subjects\_same\_Subject ----> Subject(name=\('\)Cấu trúc rời rạc cho KHMT\('\))
 
-            \subsubsection{đăng kí gia hạn}
+            \subsubsection{Đăng kí gia hạn}
             - Subjects\_same\_Subject:
                 - Student(id=\('\)2033009\('\)) <----Student\_ask\_intent----> Intents(name=\('\)đăng kí gia hạn\('\))
                 - Intents(name=\('\)đăng kí gia hạn\('\)) <----Student\_ask\_intent---->
 
-            \subsubsection{hỏi học phí}
+            \subsubsection{Hỏi học phí}
             - Student\_paid\_tuition: # học sinh đã thanh toán học phí học kì 1
                 - Student(id=\('\)2033009\('\))
                   <----Student\_paid\_tuition---->
@@ -55,7 +77,7 @@
                   name=\('\)Thay đổi đăng ký môn học\('\),
                   term=Terms(name=\('\)HK201\('\)),
                   )
-            \subsubsection{hỏi về chuẩn ngoại ngữ}
+            \subsubsection{Hỏi về chuẩn ngoại ngữ}
             - Intents\_qualities\_for\_student:
                 - Example 1:
                   - Student(id=\('\)2033009\('\)) <----Student\_ask\_intent----> Intents(name=\('\)Chuẩn sinh\_viên\('\))

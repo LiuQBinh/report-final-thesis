@@ -70,7 +70,7 @@
             - Student_ask_intent (Student ask about an intent):
                 - Student(id="2033009") <----Student_ask_intent----> Intents(name="Rut Mon Hoc")
 
-            # hỏi thời gian bat81 đầu đăng ký môn
+            # hỏi thời gian bắt đầu đăng ký môn
             - Student_ask_time_register_course (Student ask about an intent):
                 - Student(id="2033009") <----Student_ask_intent ----> Intents(name="Đăng ký môn")
                 - Intents(name="Đăng ký môn") <----time_register_course ----> Terms(name="HK201")
