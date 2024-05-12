@@ -9,7 +9,7 @@
 \contentsline {subsubsection}{\numberline {2.1.5}Phương pháp giám sát từ xa (Distant supervision)}{7}{subsubsection.2.1.5}%
 \contentsline {subsection}{\numberline {2.2}Phương pháp học sâu (Deep learning)}{8}{subsection.2.2}%
 \contentsline {subsubsection}{\numberline {2.2.1}Các hướng tiếp cận dựa trên phương pháp CNN (CNN based methods)}{8}{subsubsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.2}Phương pháp dựa trên RNN và LSTM (RNN and LSTM based methods)}{8}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.2}Phương pháp dựa trên RNN và LSTM (RNN and LSTM based methods)}{9}{subsubsection.2.2.2}%
 \contentsline {subsubsection}{\numberline {2.2.3}Encoder-decoder/transformer based methods}{10}{subsubsection.2.2.3}%
 \contentsline {subsubsubsection}{\numberline {2.2.3.a}Neural OpenIE (\href {https://aclanthology.org/P18-2065}{\textit {Cui et al. (2018)}})}{10}{subsubsubsection.2.2.3.1}%
 \contentsline {subsubsubsection}{\numberline {2.2.3.b}Transformer based OpenIE(\href {https://www.sciencedirect.com/science/article/pii/S2667305323000698####br0450}{Han and Wang (2021)})}{11}{subsubsubsection.2.2.3.2}%

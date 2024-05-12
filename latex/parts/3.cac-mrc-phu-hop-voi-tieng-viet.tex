@@ -1,19 +1,36 @@
 \section{Các MRC phù hợp với Tiếng Việt}\label{sec:cac-mrc-phu-hop-voi-tieng-viet}
+
 \subsection{Mô hình tinh chỉnh (Fine-tuned model):}\label{subsec:mo-hinh-tinh-chinh-(fine-tuned-model):}
 \begin{itemize}
-    \item XML-net fine-tuned: Mô hình này được tinh chỉnh cho tác vụ hỏi đáp.
-    \item Pho-bert fine-tuned: Tương tự như XML-net, Pho-bert cũng là một mô hình được tinh chỉnh cho tác vụ hỏi đáp.
-    \item Vi-deberta fine-tuned (phòng thí nghiệm của chúng tôi), mô hình Vi-deberta được phát triển bởi
+    \item XLM-RoBERTa fine-tuned cho task QA: Mô hình này được tinh chỉnh cho tác vụ hỏi đáp.\\
+    \begin{singlespace}
+        \href{https://huggingface.co/nguyenvulebinh/vi-mrc-large?context=B%C3%ACnh+Nguy%E1%BB%85n+l%C3%A0+m%E1%BB%99t+ng%C6%B0%E1%BB%9Di+%C4%91am+m%C3%AA+v%E1%BB%9Bi+l%C4%A9nh+v%E1%BB%B1c+x%E1%BB%AD+l%C3%BD+ng%C3%B4n+ng%E1%BB%AF+t%E1%BB%B1+nhi%C3%AAn+.+Anh+nh%E1%BA%ADn+ch%E1%BB%A9ng+ch%E1%BB%89+Google+Developer+Expert+n%C4%83m+2020&text=B%C3%ACnh+%C4%91%C6%B0%E1%BB%A3c+c%C3%B4ng+nh%E1%BA%ADn+v%E1%BB%9Bi+danh+hi%E1%BB%87u+g%C3%AC+%3F}
+        {Mô hình XLM-RoBERTa đã được fine-tuned tham khảo.}
+    \end{singlespace}
+    \item Pho-bert fine-tuned cho task QA: Tương tự như XML-net, Pho-bert cũng là một mô hình được tinh chỉnh cho tác vụ hỏi đáp.\\
+    \begin{singlespace}
+        \href{https://huggingface.co/duyduong9htv/phobert-qa-finetuned-viet-qa?context=H%C3%A0+n%E1%BB%99i+l%C3%A0+th%E1%BB%A7+%C4%91%C3%B4+c%E1%BB%A7a+Vi%E1%BB%87t+Nam&text=M%E1%BB%91i+quan+h%E1%BB%87+gi%E1%BB%AFa+H%C3%A0+n%E1%BB%99i+v%C3%A0+Vi%E1%BB%87t+Nam%3F}
+        {Mô hình Pho-bert đã được fine-tuned tham khảo.}
+    \end{singlespace}
+    \item
+        Vi-deberta fine-tuned cho task QA, mô hình Vi-deberta được phát triển bởi
         \href{https://arxiv.org/pdf/2301.10439}{Cong Dao Tran, Nhut Huy Pham, Anh Nguyen, Truong Son Hy & Tu Vu (2023)}
-        và được tinh chỉnh cho tác vụ hỏi đáp (QA task). Do được xây dựng dựa trên dữ liệu tiếng Việt, Vi-deberta có khả năng năng tương thích cao với tập dữ liệu/lĩnh vực của chúng ta (cần kiểm chứng thêm).
+        và được tinh chỉnh cho tác vụ hỏi đáp (QA task). Do được xây dựng dựa trên dữ liệu tiếng Việt, Vi-deberta có khả
+        năng năng tương thích cao với tập dữ liệu/lĩnh vực của chúng ta (cần kiểm chứng thêm).\\
+    \begin{singlespace}
+        \href{https://huggingface.co/lqbin/videberta-xsmall_batch24_epoch30v6}
+        {Mô hình Pho-bert đã được fine-tuned tham khảo. (fine-turn dựa trên tập viquad)}
+    \end{singlespace}
+
 \end{itemize}
+
 \subsection{API của bên thứ ba (3rd party API):}\label{subsec:api-cua-ben-thu-ba-(3rd-party-api):}
 \begin{itemize}
     \item
-        ChatGPT: ChatGPT là một API trả lời theo dạng hội thoại, có khả năng tạo văn bản theo yêu cầu và trả lời các câu hỏi một cách tự nhiên.
-        GPT có nhiều phiên bản khác nhau với kích thước và tập dữ liệu đào tạo khác nhau. GPT-3, phiên bản phổ biến nhất, được đào tạo trên một tập dữ liệu khổng lồ gồm văn bản và mã, bao gồm sách, bài báo,
+    ChatGPT: ChatGPT là một API trả lời theo dạng hội thoại, có khả năng tạo văn bản theo yêu cầu và trả lời các câu hỏi một cách tự nhiên.
+    GPT có nhiều phiên bản khác nhau với kích thước và tập dữ liệu đào tạo khác nhau. GPT-3, phiên bản phổ biến nhất, được đào tạo trên một tập dữ liệu khổng lồ gồm văn bản và mã, bao gồm sách, bài báo,
     \item
-        Gemini from Google: Gemini là một mô hình ngôn ngữ lớn do Google phát triển, có khả năng thực hiện nhiều tác vụ xử lý ngôn ngữ tự nhiên, bao gồm cả trả lời câu hỏi.
-        Gemini cũng có nhiều phiên bản, bao gồm Gemini Pro, Gemini Ultra và Gemini Nano. Gemini Ultra được đào tạo trên một tập dữ liệu khổng lồ gồm văn bản và mã, tương tự như GPT-3, trong khi Gemini Nano được đào tạo trên một tập dữ liệu nhỏ hơn để chạy trên thiết bị di động.
+    Gemini from Google: Gemini là một mô hình ngôn ngữ lớn do Google phát triển, có khả năng thực hiện nhiều tác vụ xử lý ngôn ngữ tự nhiên, bao gồm cả trả lời câu hỏi.
+    Gemini cũng có nhiều phiên bản, bao gồm Gemini Pro, Gemini Ultra và Gemini Nano. Gemini Ultra được đào tạo trên một tập dữ liệu khổng lồ gồm văn bản và mã, tương tự như GPT-3, trong khi Gemini Nano được đào tạo trên một tập dữ liệu nhỏ hơn để chạy trên thiết bị di động.
 \end{itemize}
 

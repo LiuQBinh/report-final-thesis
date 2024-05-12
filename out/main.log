@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.5.12)  12 MAY 2024 15:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.5.12)  12 MAY 2024 16:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1819,7 +1819,7 @@ Package pdftex.def Info: image/local/hcmut.png  used on input line 92.
  (parts/2.phuong-phap-hoc-sau-(deep-learning).tex
 File: image/local/hcmut.png Graphic file (type png)
 <use image/local/hcmut.png>
-Package pdftex.def Info: image/local/hcmut.png  used on input line 81.
+Package pdftex.def Info: image/local/hcmut.png  used on input line 75.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [8
 
@@ -1939,11 +1939,20 @@ Package pdftex.def Info: image/local/hcmut.png  used on input line 93.
 \openout2 = `./parts/3.cac-mrc-phu-hop-voi-tieng-viet.aux'.
 
  (parts/3.cac-mrc-phu-hop-voi-tieng-viet.tex
-parts/3.cac-mrc-phu-hop-voi-tieng-viet.tex:7: Misplaced alignment tab character
- &.
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+
+ []
+
+parts/3.cac-mrc-phu-hop-voi-tieng-viet.tex:17: Misplaced alignment tab characte
+r &.
 <argument> ...uy Pham, Anh Nguyen, Truong Son Hy &
                                                    Tu Vu (2023)
-l.7 ..., Anh Nguyen, Truong Son Hy & Tu Vu (2023)}
+l.17 ... Anh Nguyen, Truong Son Hy & Tu Vu (2023)}
                                                   
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1951,6 +1960,11 @@ simple: Just type `I\&' now. But if some right brace
 up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--20
+
+ []
 
 )
 File: image/local/hcmut.png Graphic file (type png)
@@ -2093,14 +2107,28 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-parts/5.mo-hinh-de-xuat-va-phuong-phap-tiep-can.tex:11: LaTeX Error: Can be use
+parts/5.mo-hinh-de-xuat-va-phuong-phap-tiep-can.tex:9: LaTeX Error: Can be used
+ only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 \usepackage
+               {lstdoc}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+parts/5.mo-hinh-de-xuat-va-phuong-phap-tiep-can.tex:12: LaTeX Error: Can be use
 d only in preamble.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.11 \begin{document}
+l.12 \begin{document}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2108,7 +2136,7 @@ or  <return>  to continue without it.
 
 File: image/local/hcmut.png Graphic file (type png)
 <use image/local/hcmut.png>
-Package pdftex.def Info: image/local/hcmut.png  used on input line 15.
+Package pdftex.def Info: image/local/hcmut.png  used on input line 16.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
 [16
 
@@ -2138,7 +2166,7 @@ Package rerunfilecheck Info: File `main.out' has not changed.
  ) )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 11 (\begingroup)
+### semi simple group (level 1) entered at line 12 (\begingroup)
 ### bottom level
 (\end occurred when \iftrue on line 103 was incomplete)
 (\end occurred when \ifx on line 103 was incomplete)
@@ -2150,7 +2178,7 @@ Here is how much of TeX's memory you used:
  50123 multiletter control sequences out of 15000+600000
  580202 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 104i,24n,115p,737b,537s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 104i,24n,115p,737b,499s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\luuqu\AppData\
 Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Program Files/M
 iKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/
@@ -2166,9 +2194,9 @@ Program Files/MiKTeX/fonts/type1/vntex/vnr/vnti9.pfb><C:/Program Files/MiKTeX/f
 onts/type1/vntex/vnr/vntt10.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/
 vntt8.pfb>
 Output written on C:/Users\luuqu\Documents\GitHub\report-final-thesis\out\main.
-pdf (17 pages, 556588 bytes).
+pdf (17 pages, 557719 bytes).
 PDF statistics:
- 541 PDF objects out of 1000 (max. 8388607)
+ 545 PDF objects out of 1000 (max. 8388607)
  72 named destinations out of 1000 (max. 500000)
  407 words of extra memory for PDF output out of 10000 (max. 10000000)
 
