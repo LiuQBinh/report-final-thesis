@@ -46,52 +46,170 @@ phân tích định hướng (sentiment analysis) (
 \href{https://www.sciencedirect.com/science/article/pii/S2667305323000698#br0180}{Cai et al. (2019)}
 ) v.v.
 
-\subsubsection{CNN based methods}
+\subsubsection{Các hướng tiếp cận dựa trên phương pháp CNN (CNN based methods)}
 
 \begin{singlespace}
-Các công trình ban đầu về trích xuất quan hệ sử dụng học sâu dựa trên mô hình học có giám sát
-với tập dữ liệu huấn luyện được dán nhãn thủ công. Mô hình coi nhiệm vụ RE là vấn đề phân loại
-đa lớp, trong đó mô hình gán một lớp quan hệ cho một câu chứa cặp thực thể được đề cập.
-\href{https://scholar.google.com/scholar_lookup?title=Convolution%20neural%20network%20for%20relation%20extraction&publication_year=2013&author=C.%20Liu&author=W.%20Sun&author=W.%20Chao&author=W.%20Che}{Liu et al. (2013)} \textbf{đề xuất một mô hình CNN đơn giản để trích xuất quan hệ}.
-Liu et al. (2013) là một trong những nhóm nghiên cứu đầu tiên sử dụng kiến trúc dựa trên Mạng nơ-ron tích chập (CNN) cho trích xuất quan hệ. Mô hình này xây dựng một kiến trúc mạng nơ-ron đầu cuối (end-to-end) với ba khối chính: lớp đầu vào, lớp tích chập và lớp mạng nơ-ron cổ điển.
+    Các công trình ban đầu về trích xuất quan hệ sử dụng học sâu dựa trên mô hình học có giám sát
+    với tập dữ liệu huấn luyện được dán nhãn thủ công. Mô hình coi nhiệm vụ RE là vấn đề phân loại
+    đa lớp, trong đó mô hình gán một lớp quan hệ cho một câu chứa cặp thực thể được đề cập.
+    \href{https://scholar.google.com/scholar_lookup?title=Convolution%20neural%20network%20for%20relation%20extraction&publication_year=2013&author=C.%20Liu&author=W.%20Sun&author=W.%20Chao&author=W.%20Che}{Liu et al. (2013)} \textbf{đề xuất một mô hình CNN đơn giản để trích xuất quan hệ}.
+    Liu et al. (2013) là một trong những nhóm nghiên cứu đầu tiên sử dụng kiến trúc dựa trên Mạng nơ-ron tích chập (CNN) cho trích xuất quan hệ. Mô hình này xây dựng một kiến trúc mạng nơ-ron đầu cuối (end-to-end) với ba khối chính: lớp đầu vào, lớp tích chập và lớp mạng nơ-ron cổ điển.
+    \begin{itemize}
+        \item Lớp đầu vào: Sử dụng bảng tra cứu (lookup table) để chuyển đổi các câu đầu vào thành vector từ (word vector) bằng cách tận dụng các đặc trưng từ vựng và từ điển đồng nghĩa.
+        \item Lớp tích chập: Sử dụng một kernel tuần tự, ánh xạ các vector từ của lớp đầu vào vào một không gian vector mới.
+        \item Lớp mạng nơ-ron: Kết quả đầu ra của lớp tích chập được đưa vào mạng nơ-ron với hàm softmax để tính toán xác suất phân loại.
+    \end{itemize}
+    Trên tập dữ liệu ACE, mô hình này đạt được điểm F1 là 83,8%, vượt qua mô hình tiên tiến nhất thời bấy giờ (phương pháp Typed Dependency Kernel của Reichartz et al. (2010)).
+\end{singlespace}
+
+Các hướng tiếp cận dựa trên phương pháp CNN:
 \begin{itemize}
-\item Lớp đầu vào: Sử dụng bảng tra cứu (lookup table) để chuyển đổi các câu đầu vào thành vector từ (word vector) bằng cách tận dụng các đặc trưng từ vựng và từ điển đồng nghĩa.
-\item Lớp tích chập: Sử dụng một kernel tuần tự, ánh xạ các vector từ của lớp đầu vào vào một không gian vector mới.
-\item Lớp mạng nơ-ron: Kết quả đầu ra của lớp tích chập được đưa vào mạng nơ-ron với hàm softmax để tính toán xác suất phân loại.
+    \item Trích xuất thông tin có giám sát dựa trên CNN (CNN based supervised IE)
+    \begin{itemize}
+        \item Simple CNN based model(\href{https://scholar.google.com/scholar_lookup?title=Convolution%20neural%20network%20for%20relation%20extraction&publication_year=2013&author=C.%20Liu&author=W.%20Sun&author=W.%20Chao&author=W.%20Che}{Liu et al. (2013)})
+        \item CNN model with max-pooling(\href{https://www.scopus.com/inward/record.url?eid=2-s2.0-84959862537&partnerID=10&rel=R3.0.0}{Zeng et al. (2014)})
+        \item CNN model with multiple window size filter(\href{https://www.sciencedirect.com/science/article/pii/S2667305323000698#br1010}{Nguyen and Grishman (2015)})
+        \item CNN model with classification by ranking(\href{https://www.sciencedirect.com/science/article/pii/S2667305323000698#br0330}{Dos Santos et al. (2015)})
+    \end{itemize}
 \end{itemize}
-Trên tập dữ liệu ACE, mô hình này đạt được điểm F1 là 83,8%, vượt qua mô hình tiên tiến nhất thời bấy giờ (phương pháp Typed Dependency Kernel của Reichartz et al. (2010)).
+
+\subsubsection{Phương pháp dựa trên RNN và LSTM (RNN and LSTM based methods)}
+\begin{itemize}
+    \item Simple RNN (\href{https://arxiv.org/abs/1508.01006}{Relation classification via recurrent neural network - Zhang and Wang (2015)})
+    \item SDP-LSTM (\href{https://aclanthology.org/D15-1206}{Bidirectional long short-term memory networks for relation classification - Xu et al. (2015})
+    \item BLSTM (\href{https://aclanthology.org/C16-1139}{Relation extraction with multi-instance multi-label convolutional neural networks - Zhang et al. (2015)})
+    \item Att-BLSTM (\href{https://aclanthology.org/P16-2034}{Attention-based bidirectional long short-term memory networks for relation classification - Zhou et al. (2016)})
+    \item DRNN (deep recurrent neural network) (\href{https://aclanthology.org/C16-1138}{Improved relation classification by deep recurrent neural networks with data augmentation - Xu et al. (2016)})
+    \item EAtt-BiGRU(\href{https://doi.org/10.1109/IJCNN.2017.7966407}{Qin et al. (2017)})
+    \item RNNOIE (\href{https://aclanthology.org/N18-1081}{Stanovsky et al. (2018)}
+    \item SpanOIE(\href{https://www.scopus.com/inward/record.url?eid=2-s2.0-85106555459&partnerID=10&rel=R3.0.0}{Zhan and Zhao (2020)})
+\end{itemize}
+
+\newpage
+\subsubsection{Encoder-decoder/transformer based methods}
+\begin{singlespace}
+    Các mô hình dựa trên bộ mã hóa(encoder) -giải mã (decoder) được đề xuất trong các công trình
+    (\href{https://www.sciencedirect.com/science/article/pii/S2667305323000698#br0250}{Cho et al. (2014)}, \href{https://www.sciencedirect.com/science/article/pii/S2667305323000698#br1350}{Sutskever et al. (2014)}).
+\end{singlespace}
+
+\begin{singlespace}
+    Bộ mã hóa (encoder) bao gồm nhiều lớp LSTM hoặc GRU, nhận một dãy các ký hiệu làm đầu vào và tạo ra một vector có độ dài cố định,
+    biểu diễn một cách nén của dãy đầu vào.
+\end{singlespace}
+
+\begin{singlespace}
+    Bộ giải mã (decoder) cũng bao gồm nhiều lớp LSTM hoặc GRU, ánh xạ đầu ra của bộ mã hóa thành
+    dãy đích.
+\end{singlespace}
+
+\begin{singlespace}
+    Kiến trúc mã hóa(encoder) -giải mã (decoder) với cơ chế attention được giới thiệu trong (
+    \href{http://arxiv.org/abs/1409.0473}{Bahdanau et al. (2015)}
+    ;
+    \href{https://aclanthology.org/D15-1166}{Luong et al. (2015)}
+    ) đã cải thiện hiệu suất hơn nữa bằng cách cho phép bộ giải mã tập trung vào các phần của dãy đầu vào có liên quan đến từ đích.
+    \href{https://scholar.google.com/scholar_lookup?title=Attention%20is%20all%20you%20need&publication_year=2017&author=A.%20Vaswani&author=N.%20Shazeer&author=N.%20Parmar&author=J.%20Uszkoreit&author=L.%20Jones&author=A.N.%20Gomez&author=L.%20Kaiser&author=I.%20Polosukhin}{Vaswani et al. (2017)} đã đề xuất kiến trúc Transformer, dựa trên kiến trúc mã hóa-giải mã với self-attention.
 \end{singlespace}
 
 
 
+\subsubsubsection{Neural OpenIE
+(\href{https://aclanthology.org/P18-2065}{\textit{Cui et al. (2018)}})}
+\begin{singlespace}
+Neural OpenIE là một khung dựa trên bộ mã hó(decoder)-giải mã (encoder), coi nhiệm vụ trích xuất quan hệ (RE) là vấn đề sinh văn bản chuỗi-sang-chuỗi.
+Trong đó, đầu vào là một chuỗi các token (ký hiệu) và đầu ra là một chuỗi các token với các dấu phân cách chỉ ranh giới của thực thể
+và quan hệ.
+\end{singlespace}
+\begin{singlespace}
+Như được hiển thị trong
+\renewcommand{\figurename}{Hình.}
+\autoref{fig:image/parts/5}
+, kiến trúc Neural OpenIE sử dụng một khung mã hóa (decoder)-giải mã (encoder) với chú ý và sao chép dựa trên chú ý.
+Trong kiến trúc này, cả bộ mã hóa và bộ giải mã(encoder) đều có 3 lớp mạng LSTM. Bộ mã hóa (decoder) nhận chuỗi văn bản có độ dài thay đổi làm
+đầu vào và chuyển đổi nó thành một biểu diễn ẩn.
+\end{singlespace}
+\begin{singlespace}
+Bộ giải mã (encoder) lấy đầu ra của bộ mã hóa (decoder) và thông tin chú ý làm đầu vào, đưa vào
+mạng LSTM tiếp theo là softmax để tạo ra chuỗi đầu ra cuối cùng. Mô hình sử dụng cơ chế sao chép để giảm số lượng từ chưa biết
+trong chuỗi đầu ra.
+\end{singlespace}
+
+\begin{figure}[h!]
+    \includegraphics
+    [width=0.9\textwidth]{image/parts/5}
+    \renewcommand{\figurename}{Hình.}
+    \caption{Kiến trúc mô hình mã hóa (decoder)-giải mã (encoder) của hệ thống Neural OpenIE}\label{fig:image/parts/5}
+\end{figure}
 
 
+\newpage
+\subsubsubsection{Transformer based OpenIE(\href{https://www.sciencedirect.com/science/article/pii/S2667305323000698#br0450}{Han and Wang (2021)})}
+\begin{singlespace}
+Bài báo này đề xuất một hệ thống OpenIE dựa trên kiến trúc Transformer (Vaswani et al., 2017).
+Kiến trúc mô hình Transformer được minh họa trong
+\renewcommand{\figurename}{Hình.}
+\autoref{fig:image/parts/6}. Bộ mã hóa là một ngăn xếp của nhiều lớp giống hệt nhau,
+trong đó mỗi lớp bao gồm hai lớp con. Lớp con thứ nhất là lớp self-attention, cho phép bộ mã hóa liên hệ các token
+khác nhau trong dãy đầu vào. Lớp con thứ hai bao gồm Mạng nơ-ron Feed-Forward (FFN). Bộ giải mã cũng bao gồm hai lớp này,
+đồng thời có thêm lớp thứ ba với sự chú ý đa đầu (multi-head attention), giúp bộ giải mã xác định các token có liên quan từ dãy đầu vào.
+So sánh hiệu suất của mô hình dựa trên Transformer với các hệ thống OpenIE khác nhau được thể hiện trong Hình 13.
+\end{singlespace}
+\begin{figure}[h!]
+    \centering
+    \includegraphics
+    [width=0.4\textwidth]{image/parts/6}
+    \renewcommand{\figurename}{Hình.}
+    \caption{Kiến trúc mô hình Transformer (
+\href{https://arxiv.org/pdf/1706.03762}{Vaswani et al. (2017)})
+}\label{fig:image/parts/6}
+\end{figure}
+\begin{figure}[h!]
+    \centering
+    \includegraphics
+    [width=0.5\textwidth]{image/parts/7}
+    \renewcommand{\figurename}{Hình.}
+    \caption{
+So sánh hiệu suất của mô hình máy biến áp với các hệ thống OpenIE(
+\href{https://www.sciencedirect.com/science/article/abs/pii/S0952197621001093}{Han and Wang (2021)})
+}\label{fig:image/parts/7}
+\end{figure}
 
+\newpage
+\subsubsubsection{Multi2OIE (\href{https://aclanthology.org/2020.findings-emnlp.99}{\textit{Ro et al. (2020)}})}
+\begin{singlespace}
+Tương tự như RNNOIE (
+\href{https://aclanthology.org/N18-1081}{Stanovsky et al. (2018)}
+), Multi2OIE coi nhiệm vụ trích xuất quan hệ (RE) là vấn đề dán nhãn dãy.
+Multi2OIE sử dụng BERT (
+\href{https://aclanthology.org/N19-1423}{Devlin et al. (2019)}
+) kết hợp với các khối chú ý đa đầu (multi-head attention) (\href{https://arxiv.org/abs/1706.03762}{Vaswani et al. (2017)})
+để thực hiện trích xuất thông tin (IE). Kiến trúc của Multi2OIE được minh họa trong
+\renewcommand{\figurename}{Hình.}
+\autoref{fig:image/parts/7}.
+Trong phần đầu tiên, mô hình vị từ (predicate model) sử dụng BERT tiếp theo là mạng nơ-ron Feed-Forward (FFN) và một lớp
+softmax để xác định vị từ trong câu. Ở phần thứ hai, mô hình luận cứ (argument model) sử dụng trạng thái ẩn của BERT kết hợp
+với thông tin vị từ và nhúng vị trí làm đầu vào cho khối chú ý đa đầu, tiếp theo là FFN và softmax để dự đoán các luận cứ.
 
+\renewcommand{\figurename}{Hình.}
+\autoref{fig:image/parts/8}
+mô tả so sánh hiệu suất của mô hình Multi2OIE với các mô hình OIE khác trên các tập dữ liệu Re-OIE2016 (
+\href{https://arxiv.org/abs/1901.10879}{Zhan and Zhao (2020)})
+và
+\href{https://aclanthology.org/D19-1651}{Bhardwaj et al. (2019)}.
+\end{singlespace}
 
+\begin{figure}[h!]
+    \centering
+    \includegraphics
+    [width=0.8\textwidth]{image/parts/8}
+    \renewcommand{\figurename}{Hình.}
+    \caption{Kiến trúc của mô hình Multi2OIE (\href{https://aclanthology.org/2020.findings-emnlp.99}{Ro et al. (2020)}).}\label{fig:image/parts/8}
+\end{figure}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-\subsubsection{RNN and LSTM based methods}
-\subsubsection{Encoder-decoder/transformer based methods}
+\begin{figure}[h!]
+    \centering
+    \includegraphics
+    [width=0.8\textwidth]{image/parts/9}
+    \renewcommand{\figurename}{Hình.}
+    \caption{Hiệu suất của mô hình Multi2OIE (\href{https://aclanthology.org/2020.findings-emnlp.99}{Ro et al. (2020)})).}\label{fig:image/parts/9}
+\end{figure}
